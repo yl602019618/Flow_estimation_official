@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-23",
+  "reference": {
+    "solver": "Water_USCT PyTorch MAC",
+    "grid": [128, 128, 684],
+    "cell_count": 11206656,
+    "cells_per_diameter": 25.6,
+    "steps": 100,
+    "evolve_seconds": 252.93
+  },
+  "incflo_valid_double": [
+    {
+      "grid": [120, 120, 640],
+      "cell_count": 9216000,
+      "cells_per_diameter": 24.0,
+      "seconds_per_step": 0.9830436808,
+      "raw_speedup": 2.5729274,
+      "cell_normalized_speedup": 2.1158942,
+      "final_max_speed_m_per_s": 0.6670057,
+      "velocity_cfl": 0.1600814,
+      "sphere_volume_relative_error": 0.0033271,
+      "flow_mismatch": 2.252e-13,
+      "run_directory": "/home/ubuntu/incflo_water_usct/runs/sphere100_double_strict_output_double_20260823T092354Z"
+    },
+    {
+      "grid": [144, 144, 768],
+      "cell_count": 15925248,
+      "cells_per_diameter": 28.8,
+      "seconds_per_step": 1.377521932,
+      "raw_speedup": 1.8361232,
+      "cell_normalized_speedup": 2.6092277,
+      "final_max_speed_m_per_s": 0.67377937,
+      "velocity_cfl": 0.19404846,
+      "sphere_volume_relative_error": 0.00234872,
+      "flow_mismatch": 2.21e-14,
+      "run_directory": "/home/ubuntu/incflo_water_usct/runs/sphere100_double_strict_high144_output_double_20260823T092828Z"
+    }
+  ],
+  "rejected_float32": {
+    "grid": [120, 120, 640],
+    "seconds_per_step": 0.6905994415,
+    "raw_speedup": 3.66247,
+    "cell_normalized_speedup": 3.01190,
+    "accepted": false,
+    "reason": "Initial maximum speed 7.58 m/s and NaNs in the step-100 plotfile"
+  },
+  "native_eb_divergence_gate": "not_measured",
+  "scope": "100-step numerical-validity and performance preflight; not a mature-wake validation"
+}

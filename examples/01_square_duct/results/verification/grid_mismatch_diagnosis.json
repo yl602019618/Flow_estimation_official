@@ -1,0 +1,11 @@
+{
+  "dtype": "float32",
+  "raw_relative_mismatch": 0.2010924369096756,
+  "amplitude_fit": 0.8302125930786133,
+  "amplitude_corrected_mismatch": 0.12978792190551758,
+  "waveform_correlation": 0.9916824698448181,
+  "per_receiver_min": 0.13536590337753296,
+  "per_receiver_median": 0.37052038311958313,
+  "per_receiver_max": 0.6652292609214783,
+  "artifact": "outputs/demo_3d_50khz/verification/grid_mismatch_diagnostics.npz"
+}

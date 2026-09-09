@@ -1,0 +1,120 @@
+{
+  "ablation": [
+    {
+      "max_radius_error": 1.1102230246251565e-16,
+      "maximum_condition_number": 2.051221345410029,
+      "minimum_normalized_eigenvalue": 0.6338331069367359,
+      "minimum_point_separation": 0.5458188624101745,
+      "minimum_rank": 3,
+      "n_pairs": 496,
+      "n_transducers": 32,
+      "ray_condition_number": 16.035735883850318,
+      "ray_rank": 364
+    },
+    {
+      "max_radius_error": 1.1102230246251565e-16,
+      "maximum_condition_number": 1.3520958171039341,
+      "minimum_normalized_eigenvalue": 0.8216537499030132,
+      "minimum_point_separation": 0.44583254670779143,
+      "minimum_rank": 3,
+      "n_pairs": 1128,
+      "n_transducers": 48,
+      "ray_condition_number": 3.798154277698905,
+      "ray_rank": 364
+    },
+    {
+      "max_radius_error": 1.1102230246251565e-16,
+      "maximum_condition_number": 1.2162185411157806,
+      "minimum_normalized_eigenvalue": 0.8885455865519803,
+      "minimum_point_separation": 0.386191064575983,
+      "minimum_rank": 3,
+      "n_pairs": 2016,
+      "n_transducers": 64,
+      "ray_condition_number": 2.6509088666830354,
+      "ray_rank": 364
+    },
+    {
+      "max_radius_error": 1.1102230246251565e-16,
+      "maximum_condition_number": 1.179474717032303,
+      "minimum_normalized_eigenvalue": 0.9069564521356307,
+      "minimum_point_separation": 0.3154032796977391,
+      "minimum_rank": 3,
+      "n_pairs": 4560,
+      "n_transducers": 96,
+      "ray_condition_number": 2.254003342840991,
+      "ray_rank": 364
+    }
+  ],
+  "forward": {
+    "exact_linearized_relative": 2.8010056692825755e-07,
+    "quadrature_32_64_relative": 3.925142129458473e-13,
+    "swap_sign_max_abs_s": 0.0,
+    "zero_flow_max_abs_s": 0.0
+  },
+  "geometry": {
+    "max_radius_error": 1.1102230246251565e-16,
+    "maximum_condition_number": 1.179474717032303,
+    "minimum_normalized_eigenvalue": 0.9069564521356307,
+    "minimum_point_separation": 0.3154032796977391,
+    "minimum_rank": 3,
+    "n_pairs": 4560,
+    "n_transducers": 96
+  },
+  "inversion": {
+    "clean": {
+      "field_correlation": 0.9999890925267325,
+      "relative_divergence": 0.0,
+      "relative_l2_error": 0.004677157096746178,
+      "residual_ratio": 0.0,
+      "residual_rms_s": 9.105418905477295e-11,
+      "target_residual_rms_s": 0.0,
+      "truncation_rank": 364,
+      "wall_max_speed_m_s": 7.220902759767876e-16
+    },
+    "noise_10ns": {
+      "field_correlation": 0.9919405290471185,
+      "relative_divergence": 0.0,
+      "relative_l2_error": 0.12721555296372314,
+      "residual_ratio": 0.9999696991186973,
+      "residual_rms_s": 9.999696991186972e-09,
+      "target_residual_rms_s": 1e-08,
+      "truncation_rank": 206,
+      "wall_max_speed_m_s": 1.0815586325496523e-15
+    },
+    "noise_5ns": {
+      "field_correlation": 0.9967816256033263,
+      "relative_divergence": 0.0,
+      "relative_l2_error": 0.0802535834636039,
+      "residual_ratio": 1.0000204993870454,
+      "residual_rms_s": 5.000102496935227e-09,
+      "target_residual_rms_s": 5e-09,
+      "truncation_rank": 277,
+      "wall_max_speed_m_s": 9.609966154659713e-16
+    }
+  },
+  "pulse": {
+    "clean": {
+      "delay_bias_ns": 2.3912930293731495e-05,
+      "delay_rmse_ns": 0.014900512937657071,
+      "realized_noise_std_ns": 0.0
+    },
+    "noise_10ns": {
+      "delay_bias_ns": 0.00011449603172327614,
+      "delay_rmse_ns": 0.015081170173378027,
+      "realized_noise_std_ns": 10.000000000000046
+    },
+    "noise_5ns": {
+      "delay_bias_ns": -2.060134803367099e-05,
+      "delay_rmse_ns": 0.01500166131762158,
+      "realized_noise_std_ns": 5.000000000000048
+    }
+  },
+  "status": "passed",
+  "truth": {
+    "mach_number": 0.0006756756756756757,
+    "maximum_speed_m_s": 1.0,
+    "maximum_speed_normalization_error": 0.0,
+    "relative_divergence": 0.0,
+    "wall_max_speed_m_s": 7.594167693598427e-16
+  }
+}

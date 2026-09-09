@@ -1,0 +1,59 @@
+seed: 20260818
+output_root: examples/03_ball_50cm/outputs
+physics:
+  radius_m: 0.50
+  c0_m_s: 1480.0
+  rho0_kg_m3: 998.0
+  max_velocity_m_s: 1.0
+acquisition:
+  n_transducers: 96
+  ablation_counts: [32, 48, 64, 96]
+signal:
+  center_frequency_hz: 20000.0
+  dt_s: 5.0e-7
+  record_time_s: 9.0e-4
+  source_delay_cycles: 2.0
+full_wave:
+  device: cuda
+  domain_half_extent_m: 0.70
+  smoke_grid_n: 57
+  smoke_fine_grid_n: 73
+  production_coarse_grid_n: 73
+  production_grid_n: 97
+  dt_s: 2.0e-6
+  record_time_s: 9.0e-4
+  absorber_width_m: 0.14
+  absorber_max_s_inv: 1200000.0
+  smoke_transducers: 12
+  extraction_half_window_cycles: 1.0
+  smoke_ray_rmse_max_ns: 10.0
+  production_ray_rmse_max_ns: 5.0
+  minimum_delay_correlation: 0.95
+  waveform_noise_targets_ns: [5.0, 10.0]
+  waveform_noise_initial_peak_fraction: 0.0002
+  waveform_noise_calibration_tolerance: 0.001
+  waveform_noise_calibration_iterations: 6
+forward:
+  truth_quadrature_order: 64
+  operator_quadrature_order: 32
+noise:
+  reciprocal_std_ns: [0.0, 5.0, 10.0]
+basis:
+  grid_n: 7
+  grid_extent: 0.75
+  center_radius: 0.76
+  sigma: 0.34
+  gram_relative_cutoff: 1.0e-10
+  volume_quadrature_order: 13
+inversion:
+  clean_relative_singular_cutoff: 1.0e-8
+evaluation:
+  volume_quadrature_order: 17
+  clean_relative_l2_max: 0.02
+  noise_5ns_relative_l2_max: 0.10
+  noise_10ns_relative_l2_max: 0.15
+  noise_5ns_correlation_min: 0.98
+  noise_10ns_correlation_min: 0.95
+  residual_ratio_min: 0.9
+  residual_ratio_max: 1.1
+

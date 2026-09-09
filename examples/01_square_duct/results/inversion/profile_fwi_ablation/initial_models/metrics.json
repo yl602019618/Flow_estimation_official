@@ -1,0 +1,51 @@
+{
+  "stage": "profile_fwi_initialization_ablation",
+  "data_case": "matched_clean",
+  "truth_policy": "truth is excluded from construction and used only for post-hoc scoring",
+  "beta_from_amplitude_stage": 0.9998422861099243,
+  "registered_initializations": [
+    "good_prior",
+    "travel_time",
+    "blurred_travel_time",
+    "zero_flow"
+  ],
+  "gaussian_sigma_control_cells": 0.75,
+  "travel_time_diagnostics": {
+    "effective_rank": 16.0,
+    "condition_number": 5.697113037109375,
+    "relative_delay_residual": 0.125118225812912,
+    "regularization": 1.5624013592100332e-19
+  },
+  "candidates": {
+    "good_prior": {
+      "relative_l2_score_only": 0.04814207926392555,
+      "correlation_score_only": 0.998840868473053,
+      "control_min_m_per_s": 0.0,
+      "control_max_m_per_s": 0.9998423457145691
+    },
+    "travel_time": {
+      "relative_l2_score_only": 0.234985813498497,
+      "correlation_score_only": 0.9871408939361572,
+      "control_min_m_per_s": 0.0,
+      "control_max_m_per_s": 0.9492692351341248
+    },
+    "blurred_travel_time": {
+      "relative_l2_score_only": 0.3554933965206146,
+      "correlation_score_only": 0.9930325150489807,
+      "control_min_m_per_s": 0.0,
+      "control_max_m_per_s": 0.7275672554969788
+    },
+    "zero_flow": {
+      "relative_l2_score_only": 1.0,
+      "correlation_score_only": 0.0,
+      "control_min_m_per_s": 0.0,
+      "control_max_m_per_s": 0.0
+    }
+  },
+  "artifacts": [
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/initializations.h5",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/initialization_ablation.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/initialization_ablation.pdf"
+  ],
+  "passed": true
+}

@@ -1,0 +1,75 @@
+seed: 20260807
+output_root: examples/01_square_duct/outputs
+device: auto
+dtype: float32
+grid:
+  nx: 33
+  ny: 33
+  nz: 65
+  length_x: 0.10
+  length_y: 0.10
+  length_z: 0.20
+  dt: 3.0e-7
+  record_time: 2.40e-4
+  spatial_order: 8
+fine_grid:
+  nx: 41
+  ny: 41
+  nz: 81
+  dt: 2.4e-7
+physics:
+  rho0: 998.0
+  c0: 1480.0
+  viscosity: 1.0e-3
+  max_velocity: 1.0
+  effective_reynolds: 100.0
+  include_shear: true
+acquisition:
+  # Selected by the deterministic 108-candidate coverage search. The original
+  # nominal [0.05, 0.10, 0.15] geometry and its failed metrics remain archived.
+  # All rings are outside the 12-layer z sponge; this is required by the
+  # registered point-transducer reciprocity gate.
+  ring_z: [0.0375, 0.10, 0.1625]
+  ring_positions: [[0.375, 0.625], [0.25, 0.75], [0.375, 0.625]]
+  ring_perimeter_offsets: [0.0, -0.25, 0.0]
+  # 12.5 mm = 4 production cells = 5 fine-grid cells. Every transducer
+  # coordinate lies on both nodal grids, so the ideal point is one-hot on both.
+  wall_offset_cells: 4.0
+  transducer_model: point
+  center_frequency: 50000.0
+  source_delay_cycles: 2.0
+  source_amplitude: 1.0
+  sponge_layers: 12
+  sponge_mode: pressure
+inversion:
+  profile_control: [6, 6]
+  vector_control: [6, 6, 8]
+  lowpass_frequencies: [20000.0, 35000.0, 50000.0, 65000.0]
+  regularization_candidates: [1.0e-8, 1.0e-7, 1.0e-6, 1.0e-5]
+  curvature_weight: 1.0e-7
+  gauge_weight: 1.0e-7
+  checkpoint_steps: 32
+  development_iterations: 5
+  production_iterations: 15
+  lbfgs_history: 10
+  normalized_initial_objective: 100.0
+  initial_gradient_velocity: 0.05
+  max_update_velocity: 0.05
+  early_stop_patience: 5
+  early_stop_relative: 1.0e-4
+noise_rms_fraction: 0.01
+verification:
+  flow_l2_max: 0.01
+  manufactured_order_min: 1.8
+  divergence_float64_max: 1.0e-8
+  divergence_float32_max: 1.0e-5
+  wall_velocity_max: 1.0e-6
+  flow_rate_variation_max: 1.0e-3
+  momentum_residual_max: 1.0e-6
+  derivative_order_min: 7.0
+  phase_error_max: 0.01
+  reciprocity_max: 1.0e-4
+  energy_drift_max: 5.0e-3
+  grid_mismatch_max: 0.05
+  taylor_slope_min: 1.8
+  taylor_gradient_error_max: 1.0e-5

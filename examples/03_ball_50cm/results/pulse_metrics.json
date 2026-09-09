@@ -1,0 +1,17 @@
+{
+  "clean": {
+    "delay_bias_ns": 0.00011956465165738235,
+    "delay_rmse_ns": 0.07450256468968264,
+    "realized_noise_std_ns": 0.0
+  },
+  "noise_10ns": {
+    "delay_bias_ns": 0.00032290936691250723,
+    "delay_rmse_ns": 0.07456090731506824,
+    "realized_noise_std_ns": 9.999999999999892
+  },
+  "noise_5ns": {
+    "delay_bias_ns": 9.921355415309479e-05,
+    "delay_rmse_ns": 0.07460085138858072,
+    "realized_noise_std_ns": 5.000000000000428
+  }
+}

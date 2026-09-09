@@ -1,0 +1,104 @@
+{
+  "coarse": {
+    "ray_bias_ns": 0.047061258099070226,
+    "ray_correlation": 0.9998180185011764,
+    "ray_rmse_ns": 5.137930307323539
+  },
+  "coarse_fine_rms_ns": 2.114636851482228,
+  "datasets": {
+    "clean": {
+      "inversion": {
+        "field_correlation": 0.9997089621192161,
+        "relative_divergence": 0.0,
+        "relative_l2_error": 0.02534546369690252,
+        "residual_ratio": 0.0,
+        "residual_rms_s": 1.3086049466667596e-09,
+        "target_residual_rms_s": 0.0,
+        "truncation_rank": 364,
+        "wall_max_speed_m_s": 6.009634965299652e-16
+      },
+      "measurement_noise_std_ns": 0.0,
+      "ray_diagnostic": {
+        "ray_bias_ns": 0.05873276367325659,
+        "ray_correlation": 0.9998810122074822,
+        "ray_rmse_ns": 3.882963389952031
+      }
+    },
+    "noise_10ns": {
+      "calibration_iterations": 2,
+      "inversion": {
+        "field_correlation": 0.9989616812336903,
+        "relative_divergence": 0.0,
+        "relative_l2_error": 0.04617836031223366,
+        "residual_ratio": 0.9906602763043457,
+        "residual_rms_s": 9.906602763043458e-09,
+        "target_residual_rms_s": 1e-08,
+        "truncation_rank": 352,
+        "wall_max_speed_m_s": 6.326139959665379e-16
+      },
+      "measurement_noise_bias_ns": -0.0036834944788947553,
+      "measurement_noise_std_ns": 9.99449909033438,
+      "median_peak_snr_db": 53.9864437307409,
+      "ray_diagnostic": {
+        "ray_bias_ns": 0.05504926919436181,
+        "ray_correlation": 0.9986663321300133,
+        "ray_rmse_ns": 10.76174719719007
+      },
+      "waveform_noise_amplitude_std": 4.777725235841323e-05
+    },
+    "noise_5ns": {
+      "calibration_iterations": 2,
+      "inversion": {
+        "field_correlation": 0.9995592827449528,
+        "relative_divergence": 0.0,
+        "relative_l2_error": 0.03067163567604497,
+        "residual_ratio": 0.9971884866692593,
+        "residual_rms_s": 4.9859424333462964e-09,
+        "target_residual_rms_s": 5e-09,
+        "truncation_rank": 358,
+        "wall_max_speed_m_s": 6.283929012706362e-16
+      },
+      "measurement_noise_bias_ns": 0.01656105134216339,
+      "measurement_noise_std_ns": 5.000549453982188,
+      "median_peak_snr_db": 60.32379320962487,
+      "ray_diagnostic": {
+        "ray_bias_ns": 0.07529381501541997,
+        "ray_correlation": 0.9995789756724635,
+        "ray_rmse_ns": 6.329352494933366
+      },
+      "waveform_noise_amplitude_std": 2.3033169108033174e-05
+    }
+  },
+  "estimated_numerical_sigma_ns": 2.114636851482228,
+  "fine": {
+    "ray_bias_ns": 0.05873276367325659,
+    "ray_correlation": 0.9998810122074822,
+    "ray_rmse_ns": 3.882963389952031
+  },
+  "inversion": {
+    "field_correlation": 0.9997089621192161,
+    "relative_divergence": 0.0,
+    "relative_l2_error": 0.02534546369690252,
+    "residual_ratio": 0.0,
+    "residual_rms_s": 1.3086049466667596e-09,
+    "target_residual_rms_s": 0.0,
+    "truncation_rank": 364,
+    "wall_max_speed_m_s": 6.009634965299652e-16
+  },
+  "inversion_gates": {
+    "all_passed": false,
+    "clean_relative_l2": false,
+    "noise_10ns": true,
+    "noise_5ns": true
+  },
+  "maximum_fit_residual": 0.003239285950867052,
+  "median_fit_residual": 0.00041107701360179876,
+  "richardson": {
+    "ray_bias_ns": 0.0737389851257818,
+    "ray_correlation": 0.9998457230326836,
+    "ray_rmse_ns": 3.696379610123837
+  },
+  "runtime_s": 171.25884085753933,
+  "status": "passed",
+  "zero_flow_reciprocity_relative": 8.832752769194485e-07
+}

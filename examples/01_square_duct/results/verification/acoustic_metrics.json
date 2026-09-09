@@ -1,0 +1,49 @@
+{
+  "derivative_order": 7.97860050201416,
+  "phase_error": 4.746355826812376e-06,
+  "doppler_plus_error": 4.780995608522076e-06,
+  "doppler_minus_error": 4.711675170243623e-06,
+  "reciprocity_error": 9.738933855354799e-16,
+  "shear_relative_difference": 2.345341000851729e-06,
+  "energy_drift": 9.97782246847656e-06,
+  "finite": true,
+  "gate_scope": "production grid selected gates",
+  "acoustic_layout": "pressure nodes; normal acoustic velocities on half-grid faces; eighth-order mass-adjoint coupling",
+  "boundary_contract": {
+    "x_y": "rigid: pressure/tangential even, normal velocity odd and zero",
+    "z": "pressure-only damping sponge terminated by rigid parity plane",
+    "sponge_mode": "pressure",
+    "physical_width_m": 0.037500000000000006,
+    "production_layers": 12,
+    "fine_layers": 15
+  },
+  "grid_mismatch": 0.02095570128286972,
+  "grid_mismatch_including_self_diagnostic": 0.20141907758316016,
+  "grid_mismatch_receiver_count": 23,
+  "taylor_slope": 1.9973181668250504,
+  "taylor_gradient_error": 6.350985126094607e-08,
+  "checks": {
+    "derivative_order": true,
+    "phase": true,
+    "doppler": true,
+    "shear": true,
+    "reciprocity": true,
+    "energy": true,
+    "taylor": true,
+    "finite": true,
+    "grid_mismatch": true
+  },
+  "passed": true,
+  "formal_gate_complete": true,
+  "taylor_time_steps": 96,
+  "representative_receiver": 1,
+  "representative_lag_samples": 0,
+  "median_receiver_mismatch": 0.021144188758108542,
+  "median_gain_corrected_mismatch": 0.021013372905391774,
+  "median_amplitude_gain": 0.9988252633429003,
+  "diagnostic_h5": "outputs/demo_3d_50khz/acoustic/point_source_grid_diagnostics.h5",
+  "diagnostic_figures": [
+    "outputs/demo_3d_50khz/acoustic/point_source_coarse_fine_diagnostics.png",
+    "outputs/demo_3d_50khz/acoustic/point_source_reciprocity_diagnostics.png"
+  ]
+}

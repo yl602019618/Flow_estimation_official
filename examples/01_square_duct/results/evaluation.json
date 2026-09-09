@@ -1,0 +1,158 @@
+{
+  "artifacts_present": {
+    "outputs/demo_3d_50khz/verification/flow_metrics.json": true,
+    "outputs/demo_3d_50khz/geometry/metrics.json": true,
+    "outputs/demo_3d_50khz/verification/acoustic_metrics.json": true
+  },
+  "all_present": true,
+  "metrics": {
+    "flow_metrics": {
+      "relative_l2": 0.00023318598657211346,
+      "relative_divergence": 0.0,
+      "wall_velocity_relative": 0.0,
+      "flow_rate_variation": 0.0,
+      "momentum_residual": 1.9608805875291668e-07,
+      "steady_relative_change": 9.283864228045543e-10,
+      "mac_relative_divergence": 0.0,
+      "forcing_rms": 0.7842862583482084,
+      "time_steps": 3955.0,
+      "pcg_iterations": 0.0,
+      "pcg_relative_residual": 0.0,
+      "relative_divergence_float32": 4.4214289118826855e-06,
+      "pcg_relative_residual_float32": 4.409122993820347e-06,
+      "manufactured_order": 1.9420948028564453,
+      "manufactured_convergence": [
+        {
+          "n": 17.0,
+          "spacing": 0.00625,
+          "relative_l2": 0.02288996882104964,
+          "mac_relative_divergence": 4.232268139922194e-18,
+          "pcg_relative_residual": 8.728865102786505e-11
+        },
+        {
+          "n": 25.0,
+          "spacing": 0.004166666666666667,
+          "relative_l2": 0.010449520754833064,
+          "mac_relative_divergence": 4.465679776794699e-18,
+          "pcg_relative_residual": 9.044319928035249e-11
+        },
+        {
+          "n": 33.0,
+          "spacing": 0.003125,
+          "relative_l2": 0.005954480006270184,
+          "mac_relative_divergence": 4.321297087704731e-18,
+          "pcg_relative_residual": 8.66588235847353e-11
+        }
+      ],
+      "production_manufactured_relative_l2": 0.005847053988920269,
+      "production_manufactured_mac_divergence": 5.224736706218612e-18,
+      "production_manufactured_step_change": 1.1584420938750702e-18,
+      "production_manufactured_pcg_residual": 9.542029864383958e-11,
+      "checks": {
+        "duct_l2": true,
+        "manufactured_order": true,
+        "divergence": true,
+        "divergence_float32": true,
+        "wall": true,
+        "flow_rate": true,
+        "momentum": true
+      },
+      "passed": true,
+      "formal_gate_complete": true,
+      "gate_scope": "production-grid MAC RK2 projection plus manufactured convergence",
+      "artifacts": [
+        "outputs/demo_3d_50khz/flow/flow_fields.h5",
+        "outputs/demo_3d_50khz/flow/duct_constraints.png",
+        "outputs/demo_3d_50khz/flow/duct_flow_rate_convergence.png",
+        "outputs/demo_3d_50khz/flow/duct_profile_comparison.png",
+        "outputs/demo_3d_50khz/flow/duct_velocity_components.png",
+        "outputs/demo_3d_50khz/flow/manufactured_components.png",
+        "outputs/demo_3d_50khz/flow/manufactured_grid_convergence.png",
+        "outputs/demo_3d_50khz/flow/manufactured_reference_solver_error.png",
+        "outputs/demo_3d_50khz/flow/manufactured_vectors_streamlines.png",
+        "outputs/demo_3d_50khz/flow/duct_constraints.pdf",
+        "outputs/demo_3d_50khz/flow/duct_flow_rate_convergence.pdf",
+        "outputs/demo_3d_50khz/flow/duct_profile_comparison.pdf",
+        "outputs/demo_3d_50khz/flow/duct_velocity_components.pdf",
+        "outputs/demo_3d_50khz/flow/manufactured_components.pdf",
+        "outputs/demo_3d_50khz/flow/manufactured_grid_convergence.pdf",
+        "outputs/demo_3d_50khz/flow/manufactured_reference_solver_error.pdf",
+        "outputs/demo_3d_50khz/flow/manufactured_vectors_streamlines.pdf"
+      ]
+    },
+    "metrics": {
+      "central_rank": 3,
+      "central_min_eigenvalue": 0.9501613120294059,
+      "central_normalized_min_eigenvalue": 0.01412466144225978,
+      "central_condition_max": 34.89907855802072,
+      "pass": true,
+      "nominal_metrics": {
+        "central_rank": 3,
+        "central_min_eigenvalue": 0.9501613120294059,
+        "central_normalized_min_eigenvalue": 0.01412466144225978,
+        "central_condition_max": 34.89907855802072,
+        "pass": true
+      },
+      "geometry_search_triggered": false,
+      "selected_ring_z": null,
+      "selected_perimeter_offsets": null,
+      "candidates_evaluated": 0,
+      "identifiability_claim": "general three-component",
+      "transducers": 24,
+      "ordered_traces": 552,
+      "reciprocal_pairs": 276,
+      "artifact": "outputs/demo_3d_50khz/geometry/coverage.npz"
+    },
+    "acoustic_metrics": {
+      "derivative_order": 7.97860050201416,
+      "phase_error": 4.746355826812376e-06,
+      "doppler_plus_error": 4.780995608522076e-06,
+      "doppler_minus_error": 4.711675170243623e-06,
+      "reciprocity_error": 9.738933855354799e-16,
+      "shear_relative_difference": 2.345341000851729e-06,
+      "energy_drift": 9.97782246847656e-06,
+      "finite": true,
+      "gate_scope": "production grid selected gates",
+      "acoustic_layout": "pressure nodes; normal acoustic velocities on half-grid faces; eighth-order mass-adjoint coupling",
+      "boundary_contract": {
+        "x_y": "rigid: pressure/tangential even, normal velocity odd and zero",
+        "z": "pressure-only damping sponge terminated by rigid parity plane",
+        "sponge_mode": "pressure",
+        "physical_width_m": 0.037500000000000006,
+        "production_layers": 12,
+        "fine_layers": 15
+      },
+      "grid_mismatch": 0.02095570128286972,
+      "grid_mismatch_including_self_diagnostic": 0.20141907758316016,
+      "grid_mismatch_receiver_count": 23,
+      "taylor_slope": 1.9973181668250504,
+      "taylor_gradient_error": 6.350985126094607e-08,
+      "checks": {
+        "derivative_order": true,
+        "phase": true,
+        "doppler": true,
+        "shear": true,
+        "reciprocity": true,
+        "energy": true,
+        "taylor": true,
+        "finite": true,
+        "grid_mismatch": true
+      },
+      "passed": true,
+      "formal_gate_complete": true,
+      "taylor_time_steps": 96,
+      "representative_receiver": 1,
+      "representative_lag_samples": 0,
+      "median_receiver_mismatch": 0.021144188758108542,
+      "median_gain_corrected_mismatch": 0.021013372905391774,
+      "median_amplitude_gain": 0.9988252633429003,
+      "diagnostic_h5": "outputs/demo_3d_50khz/acoustic/point_source_grid_diagnostics.h5",
+      "diagnostic_figures": [
+        "outputs/demo_3d_50khz/acoustic/point_source_coarse_fine_diagnostics.png",
+        "outputs/demo_3d_50khz/acoustic/point_source_reciprocity_diagnostics.png"
+      ]
+    }
+  },
+  "passed": true,
+  "warning": "formal success requires all registered gates; smoke metrics are not substitutes"
+}

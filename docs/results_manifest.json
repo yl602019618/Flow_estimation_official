@@ -1,0 +1,1334 @@
+[
+  {
+    "path": "examples/01_square_duct/results/acoustic/point_source_coarse_fine_diagnostics.png",
+    "bytes": 347633,
+    "sha256": "e812fae57c2aa7d387baf5179d31bedc595ae88253c74fb2b7fe3d666fc67661",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/acoustic/point_source_coarse_fine_diagnostics.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/acoustic/point_source_grid_diagnostics.h5",
+    "bytes": 1921700,
+    "sha256": "da80cdae80e3b5afcc3cda84031e5bb628045471d8b560eb295b5aa6daf31f57",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/acoustic/point_source_grid_diagnostics.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/acoustic/point_source_reciprocity_diagnostics.png",
+    "bytes": 58871,
+    "sha256": "b8c36bbe30bb8f4f055cab0a0584865982ed44a056e8646f9107e11343b81387",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/acoustic/point_source_reciprocity_diagnostics.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/benchmark/metrics.json",
+    "bytes": 683,
+    "sha256": "e55ceb47cc081f801760bab814001f98d1db8518e755043edfe51221822c17de",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/benchmark/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/evaluation.json",
+    "bytes": 6510,
+    "sha256": "36aabd84873c5131635420698fe233c9529ec4b3a75bf3f16a41b5848c69b474",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/evaluation.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_clean/config_snapshot.yaml",
+    "bytes": 1734,
+    "sha256": "96535ac40f0f362449eb93a692abf82100ba36c166de39bf1594c878633425eb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_clean/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_clean/data.h5",
+    "bytes": 4717776,
+    "sha256": "51d3af96098fdb2b817f80cb9e0d22e87e80cd713d36746bede36c0f31536969",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_clean/data.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_clean/environment.json",
+    "bytes": 169,
+    "sha256": "70f42acfd90d98858aaab6fc0302998dbd0d8992626d755ad3547f611e24e3db",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_clean/environment.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_clean/generation_metrics.json",
+    "bytes": 224,
+    "sha256": "849e832f5f95285f0b6093ce2dd1f1e36a1418082760859fe7deaf279fe5907d",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_clean/generation_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_noisy/config_snapshot.yaml",
+    "bytes": 1734,
+    "sha256": "96535ac40f0f362449eb93a692abf82100ba36c166de39bf1594c878633425eb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_noisy/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_noisy/data.h5",
+    "bytes": 6586090,
+    "sha256": "f32cd66c8c2732109d5efd77b4423b1ca439a7cd3681a2a932b661c1ab7e7017",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_noisy/data.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_noisy/environment.json",
+    "bytes": 169,
+    "sha256": "70f42acfd90d98858aaab6fc0302998dbd0d8992626d755ad3547f611e24e3db",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_noisy/environment.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/fine_noisy/generation_metrics.json",
+    "bytes": 263,
+    "sha256": "40c4830f5468a7913b005ed1c797ae1af63eb2cbf180f7bfc15b6aa91b474a72",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/fine_noisy/generation_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/duct_constraints.png",
+    "bytes": 85567,
+    "sha256": "567f8134d7902d99352611e597cabe83c7868bfa72599c7e6833e36f31fead3a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/duct_constraints.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/duct_flow_rate_convergence.png",
+    "bytes": 90176,
+    "sha256": "c1215653b3ae166ec1d840006a998bde018636915321029a7694f81167d7b69a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/duct_flow_rate_convergence.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/duct_profile_comparison.png",
+    "bytes": 69663,
+    "sha256": "e0a70f3bd7b4e0501fa51d624fa574c817be00cc7d55b3467b7f13b51eb0a533",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/duct_profile_comparison.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/duct_velocity_components.png",
+    "bytes": 97627,
+    "sha256": "2d30943cb4180d88a5d2974894f7cf166a3b547ec3cce5f56784a0afcc5ffc29",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/duct_velocity_components.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/flow_fields.h5",
+    "bytes": 4636570,
+    "sha256": "d9c7b720d24a74cb9aee9c6f1b985f31eba89d671cc57d6b77bd0cda8528a8e1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/flow_fields.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/manufactured_components.png",
+    "bytes": 71587,
+    "sha256": "8e27a0282e0376868f3de2872467dca372e7f2d14bf766e037a09e20a8542177",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/manufactured_components.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/manufactured_grid_convergence.png",
+    "bytes": 77736,
+    "sha256": "0bba30170097fd5fb3d756997cbf88dea4019b9b2107a7f75e7a74059a8452c1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/manufactured_grid_convergence.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/manufactured_reference_solver_error.png",
+    "bytes": 225709,
+    "sha256": "bd218340227e127d71adf62cc175e0ff5fe2249ea8084e88c177e5777a82f6cb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/manufactured_reference_solver_error.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/flow/manufactured_vectors_streamlines.png",
+    "bytes": 328157,
+    "sha256": "66dd613c722b7648687e4a65b50d8cd58acb401f19a5c6133bb45588bfc30d9b",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/flow/manufactured_vectors_streamlines.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/geometry/coverage.npz",
+    "bytes": 3383674,
+    "sha256": "e8dcbab2e6ee5ad8c3dd4d4c448407c9a49daa2d5b40b9fbb543f789eefd48a7",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/geometry/coverage.npz"
+  },
+  {
+    "path": "examples/01_square_duct/results/geometry/coverage_slices.png",
+    "bytes": 60639,
+    "sha256": "cca688b9e3f301fa33ad4bde94b7eb56ccdd959223d41153aab8a5f2f4166393",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/geometry/coverage_slices.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/geometry/metrics.json",
+    "bytes": 741,
+    "sha256": "972396cfde18d7d056d0be8f11546ebaa091254094f2a37115286cf8f5c4b797",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/geometry/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/geometry/transducers.png",
+    "bytes": 208619,
+    "sha256": "31d71d5b0c84e1ee569e8a706cd1cad4643f2b7050bd6802ed65577c1121c9c3",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/geometry/transducers.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/amplitude_inversion_diagnostics.png",
+    "bytes": 315584,
+    "sha256": "85c9493528bdbfbde7b9532373f54182968bcb90e34735de930cbea2662f03f1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/amplitude_inversion_diagnostics.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/nonlinear_validation.h5",
+    "bytes": 3544088,
+    "sha256": "59852dc130a832dda7bba4451094d0e7fc747eba89f6e2e8658fdf5a8856f024",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/nonlinear_validation.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/nonlinear_validation.json",
+    "bytes": 1586,
+    "sha256": "ab29d7d15085ac17fabcabaeca64db73dbb8ec419ade80c718215a513b5984f1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/nonlinear_validation.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p0/history.csv",
+    "bytes": 7631,
+    "sha256": "6bd728ccc272f5ad86c7f7b20bc1341ca39bf23a92c4b9c6f8b505acaa4b128a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p0/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p0/metrics.json",
+    "bytes": 309,
+    "sha256": "af3858af74c9ccebf80121ec9d59a9395ad1b1e5bd798ed53bba3142b38f644d",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p0/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p0/model.h5",
+    "bytes": 5512,
+    "sha256": "872d931788e29c425a1ff3ac21b54305146036f8a09d3209f246f21727c7d530",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p0/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p8/history.csv",
+    "bytes": 7423,
+    "sha256": "5d30f05a91fb84bba6b277de0332eeec28626a0c7fb64b62a4aae2b08e3788e1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p8/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p8/metrics.json",
+    "bytes": 309,
+    "sha256": "9b697a4db18bd6f1df3ae1586f0f29bedc5868dcbc18844549b6d4ebe858ac0c",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p8/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_0p8/model.h5",
+    "bytes": 5512,
+    "sha256": "872d931788e29c425a1ff3ac21b54305146036f8a09d3209f246f21727c7d530",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_0p8/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_1p2/history.csv",
+    "bytes": 7437,
+    "sha256": "57fe56375309ccc3e03608e85cb1aa4f3e458d29ce302a10e72036de8eec01e9",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_1p2/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_1p2/metrics.json",
+    "bytes": 309,
+    "sha256": "bf8fb38b45182e4e9c15e841908d7b8b153b7a4f96f92572c8b877c5cea83dd1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_1p2/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/start_1p2/model.h5",
+    "bytes": 5512,
+    "sha256": "872d931788e29c425a1ff3ac21b54305146036f8a09d3209f246f21727c7d530",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/start_1p2/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/summary_metrics.json",
+    "bytes": 3067,
+    "sha256": "bd5f5368b8f9a0b70a98d997d6c09229cbd5bd6cf11ea8e88b228db1a8158b2a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/summary_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/amplitude/unit_prediction.pt",
+    "bytes": 1844833,
+    "sha256": "878ced852a980d3a869a881476d78b80a782b470b66a664e33b7f219f512f221",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/amplitude/unit_prediction.pt"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/frozen_matched_prediction.h5",
+    "bytes": 1639911,
+    "sha256": "9f6e8d8e2017cd690da9a4f11f8df4b3e6543f69ef498cb084cc0e9c466157ba",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/frozen_matched_prediction.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/start_0p0/history.csv",
+    "bytes": 267,
+    "sha256": "ee9b9e83a1ad030c729f3bac4121602f324b2c8a93943ad4a11c0b9467890d28",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/start_0p0/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/start_0p0/metrics.json",
+    "bytes": 1469,
+    "sha256": "f6ac5a443d0570651e111f7b91d4ccdef09b32d39c8a0eee2a8ce5f899f74c87",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/start_0p0/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/start_0p0/model.h5",
+    "bytes": 851620,
+    "sha256": "97c1ba07441667365b2f1ff9facdad83b6acfb4a96a31826a97a804d9172cc93",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/start_0p0/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/start_0p0/profile_candidate_comparison.png",
+    "bytes": 66698,
+    "sha256": "2467103c44e39602c1f6658e67d3f403d60504e11ca755ca11e69c66b30865b9",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_candidate_comparison.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/start_0p0/profile_inversion_diagnostics.png",
+    "bytes": 177858,
+    "sha256": "5daf74f423c51d3d733cf36fe32ec4669e5196d1c749d5cb813a7addc7e20400",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_inversion_diagnostics.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/validation/fine_clean/frozen_profile_fine_clean.png",
+    "bytes": 173606,
+    "sha256": "c738e8018febe432844db340098f146ff1d2fe7b250852993cc84aa96169fca0",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/validation/fine_clean/frozen_profile_fine_clean.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/validation/fine_clean/metrics.json",
+    "bytes": 3191,
+    "sha256": "6d5fb84aafb9bcb3ff5b5d2fc3a87b713c35e91f6b0598a94fa4edf368636944",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/validation/fine_clean/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/validation/fine_clean/raw_uncalibrated_metrics.json",
+    "bytes": 1974,
+    "sha256": "ab37f27f41c52f415e596e12c99137b1837bdbd6f801d704a40463b46369eae1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/validation/fine_clean/raw_uncalibrated_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/validation/fine_noisy/frozen_profile_fine_noisy.png",
+    "bytes": 173204,
+    "sha256": "7518209477f4c672aaf389f85da78dcb759f672890df4f021f219b2b5b7331cc",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/validation/fine_noisy/frozen_profile_fine_noisy.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile/validation/fine_noisy/metrics.json",
+    "bytes": 3223,
+    "sha256": "55530b5ebca65ba60ab53a3ef1dbd78e42f13aaba53d34183793e2b574ab3bc6",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile/validation/fine_noisy/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/axial_fwi_history.png",
+    "bytes": 84542,
+    "sha256": "7b0da59661a235393b3339b642acae47548e25026eb3f0b022447eb3db708c9c",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/axial_fwi_initial_model.png",
+    "bytes": 279203,
+    "sha256": "e359b660b18a00eabadb1edee5c57d0a448a3507c87ab50ec3472690b0d6a5c3",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/axial_fwi_models.png",
+    "bytes": 114363,
+    "sha256": "3a03702df8e2279e2ced9f6746ba954d0886ffb81250a6ac2ac6358b86051951",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/history.csv",
+    "bytes": 1151,
+    "sha256": "f238a9dd55d016087fe827097118d686052459d8934a5ac9e1ea710c9d17f794",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/metrics.json",
+    "bytes": 1413,
+    "sha256": "8fc2344fee180381ebe7d720c2ef8120e1cc93a6888d8bc399ec2cc11c0f5abb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/model.h5",
+    "bytes": 1645605,
+    "sha256": "c4e6a4045c9b3c9f9d461eea191547ef13934f0182061b4389ed64c26ceb5ce7",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/validation/fine_clean/frozen_profile_fine_clean.png",
+    "bytes": 173861,
+    "sha256": "27164a3e1436493561ed6cf427841771ef04473474e8a744d6e04344c648ed31",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_clean/frozen_profile_fine_clean.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/validation/fine_clean/metrics.json",
+    "bytes": 3208,
+    "sha256": "b4c0b7fb74453bea0c430d6cfbbecebb1d7e60278f618fd7d4e691a170bfa547",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_clean/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/validation/fine_noisy/frozen_profile_fine_noisy.png",
+    "bytes": 173209,
+    "sha256": "c1cbe68679f4d06237430d8e3bef6b3f9773b14acfa6de6fe4ae134656cf6827",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_noisy/frozen_profile_fine_noisy.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi/validation/fine_noisy/metrics.json",
+    "bytes": 3240,
+    "sha256": "2134250681faa756a4854bb8cfa5b911a2eeb95439af5961947a3c3ee8d2347e",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_noisy/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/ablation_summary.png",
+    "bytes": 101263,
+    "sha256": "f9dca6cff8bf2e961ef2caecc65253229590013f6e4c1de487ddbdf126d5679a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/ablation_summary.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_history.png",
+    "bytes": 96911,
+    "sha256": "97286660071e7318e2b0e7de3f7f14915bd42795f30c1cc4e91f789d67a3d5bb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_initial_model.png",
+    "bytes": 282097,
+    "sha256": "859c3339bca63edc207720cb250275eff25e83eb3152787a2b09f661583f1976",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_models.png",
+    "bytes": 114231,
+    "sha256": "268f4d9c8a61e4601ad7016528e8d98200e76c8f8338cb1bb420f72312aeb9a2",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/history.csv",
+    "bytes": 1998,
+    "sha256": "1b898891b68b214d1dab91714a282252adc56a37bcb7f2b3eaea93657cf6f60e",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/metrics.json",
+    "bytes": 1965,
+    "sha256": "8d6e40d8b9cbce15fb2c2d79803863805de77b77b52aad71a4c7a06f7709f96e",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/model.h5",
+    "bytes": 1656803,
+    "sha256": "190c56c3c9e03a7482a7a983adc0a0ce0c522425e03447934519d875c45a2676",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_history.png",
+    "bytes": 99225,
+    "sha256": "0184b2bb5c300841713e057c33d1894d3bc19b0f5e1e42e9ee4606ce2e0fc777",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_initial_model.png",
+    "bytes": 279203,
+    "sha256": "e359b660b18a00eabadb1edee5c57d0a448a3507c87ab50ec3472690b0d6a5c3",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_models.png",
+    "bytes": 114551,
+    "sha256": "d89e6e727fb2d7050d875aa29560b51e239c3dd5818e818f5d5b92017945ee5e",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/history.csv",
+    "bytes": 1496,
+    "sha256": "02750230414375f08fa3d158bc0e36d58788d1042553fa32520b40b895a98854",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/metrics.json",
+    "bytes": 1887,
+    "sha256": "b3f2bd17dcd2fe78f6177d60a8017aae2088da0bdd8be9cfd2b99e78fb9b0612",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/good_prior/model.h5",
+    "bytes": 1651924,
+    "sha256": "1a2282212028b325096e41aee9292e768e1f3834a582430e39329b2fbfdbcdd9",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/summary_metrics.csv",
+    "bytes": 520,
+    "sha256": "c1a9af8088df779d4f4c3f9100e14b3b47626e557901a93da844a12181660a50",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/summary_metrics.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/summary_metrics.json",
+    "bytes": 8840,
+    "sha256": "dbe8c7c7f1ce822939901fec681bb059f0317f0856abb1a6284ecbf4e8697db7",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/summary_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_history.png",
+    "bytes": 91580,
+    "sha256": "472a88b51bec063e5362ac6925b8152cc90f071b57662526cf5c9102aaf20711",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_initial_model.png",
+    "bytes": 293712,
+    "sha256": "ad22e5dfd1d341266d6bfd6a8b3be9d6f694cb73558e3d215bf12665f5062a72",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_models.png",
+    "bytes": 122354,
+    "sha256": "0b019c7d958869db1366a6942bc3af561d8ce00051063fb895173a6693e27976",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/history.csv",
+    "bytes": 2007,
+    "sha256": "ce6c26641b83ac990e0cb3068214ea1f2d177f0dbfc258ec3bac0d701e746d16",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/metrics.json",
+    "bytes": 1890,
+    "sha256": "94eeae76c5bba09eba336409e657a81930a8027190d4749d942ed8fe24993cfb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/travel_time/model.h5",
+    "bytes": 1650528,
+    "sha256": "2ace139c8e9fc5710dfc482f00084513b1e545860f82bb9f916538abbe8cca85",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/travel_time/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_history.png",
+    "bytes": 97825,
+    "sha256": "9e44e7c816cf05db0ab6a019832c88037a427fead3c0745d741490cfc5e4c933",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_initial_model.png",
+    "bytes": 259250,
+    "sha256": "f1a413fe40882c3e0a609d2328c05bbb4e9c5f4429d9746784c280fdd8995c75",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_models.png",
+    "bytes": 109694,
+    "sha256": "0fd5c48901ef38e56b7650fc6fe8621c2950dc327d67935e10642fa571b54967",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/history.csv",
+    "bytes": 1980,
+    "sha256": "4babbf077cc8dee882742616adce5eb01aae3dc679a25776d6fceb2d076dd6a3",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/metrics.json",
+    "bytes": 1857,
+    "sha256": "18d46adcfce440450ab3639c1b08582bb23ed37cda97fb4fa5e41b1a6dbf3262",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/model.h5",
+    "bytes": 1652208,
+    "sha256": "62f0608e7e6fa9ae05ed40a363639611d6fa84d14a5736f68948b44e0e27ae9a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/zero_flow/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/initial_models/initialization_ablation.png",
+    "bytes": 300855,
+    "sha256": "7034bf5303880b23931a5476fc74536af598dad07c8c642a29a2aa06da7187f1",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/initialization_ablation.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/initial_models/initializations.h5",
+    "bytes": 65302,
+    "sha256": "d1e0f25c30b99a3778994c10c98bb9d7e1635ae633d728f9127bc304806f924f",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/initializations.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/initial_models/metrics.json",
+    "bytes": 1764,
+    "sha256": "b9f4f3a13b4be472d5ee3c20891c82fd8e1fe67b238f4b97ba59d6b81aa3e45b",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/initial_models/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/axial_fwi_history.png",
+    "bytes": 92454,
+    "sha256": "3af519bff5fbea68733dc1b4894046f0e9041549f20d03989642c58f86c72320",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_history.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/axial_fwi_initial_model.png",
+    "bytes": 293712,
+    "sha256": "ad22e5dfd1d341266d6bfd6a8b3be9d6f694cb73558e3d215bf12665f5062a72",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_initial_model.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/axial_fwi_models.png",
+    "bytes": 121102,
+    "sha256": "e84e1092a781c3281a2d585757038fbe8490fb2187f6872e6445afcc84234ac0",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_models.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/history.csv",
+    "bytes": 1131,
+    "sha256": "a545afc9f18ba7ed5a752b2658a3bc6e697c37a67d600d5f8f8790e31bceb2c8",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/history.csv"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/metrics.json",
+    "bytes": 1668,
+    "sha256": "d5d1d690f65a93f4c6fe08907a486657742bf414a858d4c46c2a062fdb5a2534",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/inversion/profile_fwi_ablation/travel_time/model.h5",
+    "bytes": 1655087,
+    "sha256": "68ad0496bf343a23783b6af920e6abba64deb72f37b7234a7ea265a188b7c3d7",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/model.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/config_snapshot.yaml",
+    "bytes": 1734,
+    "sha256": "96535ac40f0f362449eb93a692abf82100ba36c166de39bf1594c878633425eb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/data.h5",
+    "bytes": 4762555,
+    "sha256": "983f17c8a31ed495ac4a785784654bae0199b360ef3f028b4943ab0510222a2f",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/data.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/environment.json",
+    "bytes": 169,
+    "sha256": "70f42acfd90d98858aaab6fc0302998dbd0d8992626d755ad3547f611e24e3db",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/environment.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/generation_metrics.json",
+    "bytes": 322,
+    "sha256": "0c68f84c2bdc9fdc7073c760d6d865e766df9751c437dad7692cccc49764c845",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/generation_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/matched_clean_flow_delay_diagnostics.png",
+    "bytes": 289351,
+    "sha256": "8bf458e19b0c49bba89bc75e54515b01ff9c82ffa42295abb0b6493212a563ea",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/matched_clean_flow_delay_diagnostics.png"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/reciprocal_delays.h5",
+    "bytes": 17344,
+    "sha256": "9fd28626fd43fd1fbd4b9d290510ec6bea8b0ccfcc76ec46bba9a70f836e5f85",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/reciprocal_delays.h5"
+  },
+  {
+    "path": "examples/01_square_duct/results/matched_clean/validation_metrics.json",
+    "bytes": 1100,
+    "sha256": "30fa27b7b1fcb3d7d84b60505bee4ca547f9a75b610fdb2a40226008dab306b6",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/matched_clean/validation_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/acoustic_metrics.json",
+    "bytes": 1841,
+    "sha256": "c3b779377cfd5da22805e33ac824646982da95a7359ed38279711d102090ee5e",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/acoustic_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/acoustic_partial_metrics.json",
+    "bytes": 813,
+    "sha256": "5684f9ffdb2a0a32e216c6ef7c4773bd6626c611a7b2403d73ad90ded375c93a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/acoustic_partial_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/acoustic_smoke_metrics.json",
+    "bytes": 1266,
+    "sha256": "a043806b9b96ed59f0cdfc7f0c57bea975fa9fa742bd4ccb53f634c2ab585fb9",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/acoustic_smoke_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/common_node_convergence.json",
+    "bytes": 1025,
+    "sha256": "6b32dcca52ede4e5acb68a903627f4f3fcf264f34a1507cbebc3f92b7b828241",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/common_node_convergence.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/flow_metrics.json",
+    "bytes": 2911,
+    "sha256": "7ad49eaaf7b2d1cd78bc3290f1cba4439d8236b64fb97cf01ac86f9985e5a0eb",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/flow_metrics.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/grid_mismatch_diagnosis.json",
+    "bytes": 424,
+    "sha256": "a2dc2190f08417b5ec76642a6a327117cc7c72718a30e102bdbf4c4bf0651c2a",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/grid_mismatch_diagnosis.json"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/grid_mismatch_diagnostics.npz",
+    "bytes": 290239,
+    "sha256": "cb07682051285f5c1d569d3aa692a105f0c4a409415129b2532a345d9aff8467",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/grid_mismatch_diagnostics.npz"
+  },
+  {
+    "path": "examples/01_square_duct/results/verification/staggered_common_node_convergence.json",
+    "bytes": 912,
+    "sha256": "3a9842c5867876a8da43b9a61c96a51f3029674701716b0e63ca58ef1eac13f7",
+    "source": "Water_USCT_3D_benchmark/outputs/demo_3d_50khz/verification/staggered_common_node_convergence.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/ablation.png",
+    "bytes": 71626,
+    "sha256": "57f3ac23f0fe063e662b6c1ca0c16c37d84a706f2f0468f9d722f5fe95c51ab4",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/ablation.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/ablation_metrics.json",
+    "bytes": 1418,
+    "sha256": "8c7ff6039dd816216d84add9e32d4ccaf08b7dda67eafc0565024252a73f41ac",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/ablation_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/benchmark_summary.json",
+    "bytes": 2595,
+    "sha256": "33ad48597f5c9b651c69cce677d886aec7bfef2031c8df55fe1f27574aef578e",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/benchmark_summary.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/config_snapshot.yaml",
+    "bytes": 1504,
+    "sha256": "7cf52e2fd6102a6fc596911463f6323485c0b0edf7c20226de9c12aee2bfd375",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/coverage.png",
+    "bytes": 112280,
+    "sha256": "8dc7bd82ab6970c2082bcba76a80240fa4c5e936c3ed23947057a68f0abbe052",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/coverage.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/data/clean.h5",
+    "bytes": 17371563,
+    "sha256": "661c7759145cca5f89fbb327309f770fe74778d692971bafcbde69a3ee455cad",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/data/clean.h5"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/data/noise_10ns.h5",
+    "bytes": 17379250,
+    "sha256": "7f7505853cf5d4051fa15b8aeb84c04c35d93cb3bff6974ac975371b4f03a10c",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/data/noise_10ns.h5"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/data/noise_5ns.h5",
+    "bytes": 17366579,
+    "sha256": "76181a89403ee99a1ae4d72b2e6c4d2ce04675274d9d26461b6b53d70ecb8c34",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/data/noise_5ns.h5"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/environment.json",
+    "bytes": 201,
+    "sha256": "fded964020b0b3ced70b274f194620c81e479e2c3929452d5156ad28d9eb06fb",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/environment.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/forward_metrics.json",
+    "bytes": 172,
+    "sha256": "1d8f7b95b8fff8c6de933aab39867cdb4ba7f7989e55cfa89cbac4bf7ec869d8",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/forward_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/config_snapshot.yaml",
+    "bytes": 1504,
+    "sha256": "7cf52e2fd6102a6fc596911463f6323485c0b0edf7c20226de9c12aee2bfd375",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/delays.npz",
+    "bytes": 207444,
+    "sha256": "d6efd5ebcb3dd569428aa8055ab1f75db18265d01f68b139db2d8c04c62a7069",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/delays.npz"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/diagnostics.png",
+    "bytes": 137375,
+    "sha256": "49840cf1fd8635d72aef1a23895a0aa9b1d3f298cab48e4a4e87a87e73b9bb13",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/diagnostics.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/environment.json",
+    "bytes": 201,
+    "sha256": "fded964020b0b3ced70b274f194620c81e479e2c3929452d5156ad28d9eb06fb",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/environment.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/metrics.json",
+    "bytes": 3473,
+    "sha256": "f9a5835187c5404823adf496f5cdccdf9f0680a31550e905f54b86d576428a47",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/noise_inversion_summary.png",
+    "bytes": 45622,
+    "sha256": "67438939f1aeb0125a742b13d36f39a0b2ad439896c61f70a5739ceb804707b2",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/noise_inversion_summary.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/noisy_observations.h5",
+    "bytes": 56969572,
+    "sha256": "fedfb0e92439cc5c7a8fc8f6fffdb6b7f2dd2f597c1c71edc5c2c0ce458c955a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/noisy_observations.h5"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/observations.h5",
+    "bytes": 45711972,
+    "sha256": "63b52d0328f90b017000c1fb97ea56bc779b2c0c1530d4e1ebe114f4983a32d2",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/observations.h5"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/fullwave/smoke_metrics.json",
+    "bytes": 563,
+    "sha256": "3038d588574fe8610c23a11e62184073ad92bd83437e22107f8b006894f22d50",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/fullwave/smoke_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/geometry_metrics.json",
+    "bytes": 266,
+    "sha256": "2666c9722c75bc0a18f91d63c55f46d84a9f902a0058a08a789d1c93838ad45c",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/geometry_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/inversion_metrics.json",
+    "bytes": 1016,
+    "sha256": "da921889ba25262ea942f72017322d11ce1edf5abec2edec94e7bc2a6accad16",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/inversion_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/metrics.json",
+    "bytes": 3852,
+    "sha256": "6bb95765af3ebb542e4c47da37059715e66abb13d97130c01a6037dc3798341b",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/operator.npz",
+    "bytes": 13761715,
+    "sha256": "2f3efc834ae80855cc7a8caee9dbd4cdb1fcb6746dc35ef45f5cb8c49dd651c4",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/operator.npz"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/pulse_metrics.json",
+    "bytes": 457,
+    "sha256": "b5aa51211a11540a23ba635257e04e86d655f534def68d6afd9d9c54f90455c1",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/pulse_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/sensors.png",
+    "bytes": 201112,
+    "sha256": "91782ebfaacde6230472fbadd4a834ced1556f76bf7981ea5b760bfa7b6471b3",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/sensors.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/singular_spectrum.png",
+    "bytes": 33462,
+    "sha256": "6068557e7c98ab70d6c4ae97774392e9084edba80277b23425956aaa84b5061a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/singular_spectrum.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/travel_time_fit.png",
+    "bytes": 154181,
+    "sha256": "e2b7cf68df120ce82350170bafa2a603c0b01538b297a71b0b791d9ef45c240f",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/travel_time_fit.png"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/truth_metrics.json",
+    "bytes": 192,
+    "sha256": "9764695e12f49c1dff5242c0202c3a85bd081c2cad1fab452f8ad09ae9bdd9db",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/truth_metrics.json"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/velocity_fields.npz",
+    "bytes": 2017606,
+    "sha256": "0f06f698f0333336bf0ca65c113e050ed37fbec77074224bf249552cca0e4ce0",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/velocity_fields.npz"
+  },
+  {
+    "path": "examples/02_ball_10cm/results/velocity_slices.png",
+    "bytes": 233144,
+    "sha256": "fcccdec4f5d13e5883a9932759578dc7860918428e7fc3d5778b74badde2fb99",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_travel_time_100khz/velocity_slices.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/ablation.png",
+    "bytes": 71626,
+    "sha256": "57f3ac23f0fe063e662b6c1ca0c16c37d84a706f2f0468f9d722f5fe95c51ab4",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/ablation.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/ablation_metrics.json",
+    "bytes": 1419,
+    "sha256": "8e7855b23db75d0dc1e8bf8cf41ad7413dfda2606bba40b8d57929986788f3e2",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/ablation_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/benchmark_summary.json",
+    "bytes": 2591,
+    "sha256": "a448ba89e2f304ee84c3acde4ffc14c9fc6f9eabe4aa74eb1feebd659824e44c",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/benchmark_summary.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/config_snapshot.yaml",
+    "bytes": 1505,
+    "sha256": "dd23b2f700379ef58aad807682c320e781a14900b2470cb73f0b110f971ef100",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/coverage.png",
+    "bytes": 112280,
+    "sha256": "8dc7bd82ab6970c2082bcba76a80240fa4c5e936c3ed23947057a68f0abbe052",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/coverage.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/data/clean.h5",
+    "bytes": 17371563,
+    "sha256": "2fa2a5b3da5e67478f1fcfc8c48753c7403ffa4f1907245148f3ff30ead25f86",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/data/clean.h5"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/data/noise_10ns.h5",
+    "bytes": 17368930,
+    "sha256": "8f0dd96de436ad50a2bd3c23ca375c826443850009dddf39e3b0a4a5b7829181",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/data/noise_10ns.h5"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/data/noise_5ns.h5",
+    "bytes": 17366225,
+    "sha256": "7e818641386ca70ed41a4ac1ef444c980c83847d682d4af5b09f409bae731228",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/data/noise_5ns.h5"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/environment.json",
+    "bytes": 201,
+    "sha256": "fded964020b0b3ced70b274f194620c81e479e2c3929452d5156ad28d9eb06fb",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/environment.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/forward_metrics.json",
+    "bytes": 173,
+    "sha256": "7fb007b3bb6778fa9f76daf5c2bf65e6c432c5d688ec0e5137c8c2ad8c8a1d77",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/forward_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/config_snapshot.yaml",
+    "bytes": 1505,
+    "sha256": "dd23b2f700379ef58aad807682c320e781a14900b2470cb73f0b110f971ef100",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/config_snapshot.yaml"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/delays.npz",
+    "bytes": 207152,
+    "sha256": "f480fd3caa9cc88d72ef0ba2f6b0e73af2a2152ecf3ac8c82f7e8e9b9e2a43b0",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/delays.npz"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/diagnostics.png",
+    "bytes": 133321,
+    "sha256": "c93ac47e7790a89de96b512f83d9b07a474bcc31dfc5d1a5c939babd794d63e2",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/diagnostics.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/environment.json",
+    "bytes": 201,
+    "sha256": "fded964020b0b3ced70b274f194620c81e479e2c3929452d5156ad28d9eb06fb",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/environment.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/metrics.json",
+    "bytes": 3465,
+    "sha256": "40c9e0adcd08cc2cba52c594eef2a7e806ad8657b579702a41dc3f1c0b2adb90",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/noise_inversion_summary.png",
+    "bytes": 45632,
+    "sha256": "97651185e8eb7867b28f300eee34e73375a092d2b06ed49355a066053949de3a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/noise_inversion_summary.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/noisy_observations.h5",
+    "bytes": 56838234,
+    "sha256": "1af165f065b08c5ab793972e8bfc3a9f2063d141f0703ef0beddd69d6679bd22",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/noisy_observations.h5"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/observations.h5",
+    "bytes": 45711970,
+    "sha256": "600ebcaa203559c85f3605239f620bd1b79f87d9a93f6f2c439a690f6cdae77b",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/observations.h5"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/fullwave/smoke_metrics.json",
+    "bytes": 560,
+    "sha256": "dfef30d4421f4e34ca1a1a26fdaf2e0d42e4faefaa54dcf50638233c7c2b1303",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/fullwave/smoke_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/geometry_metrics.json",
+    "bytes": 266,
+    "sha256": "2666c9722c75bc0a18f91d63c55f46d84a9f902a0058a08a789d1c93838ad45c",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/geometry_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/inversion_metrics.json",
+    "bytes": 1013,
+    "sha256": "6fe8cefc0ca31b879ee536d19015ccb994d04fd9c5cc060c83c0c69a64156a7a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/inversion_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/metrics.json",
+    "bytes": 3847,
+    "sha256": "a80c2c98d6ba4e63502074ba969e522786e96a087162f798f6039f05e4e1c507",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/operator.npz",
+    "bytes": 13739168,
+    "sha256": "5437a2f5019d1979b1563c64ea18f4022727246884991509d81b51fa87df1b7b",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/operator.npz"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/pulse_metrics.json",
+    "bytes": 453,
+    "sha256": "639a870e69396f961e18a4eeef762ebc539901828cc6feeb180b2f42697f45f7",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/pulse_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/sensors.png",
+    "bytes": 201112,
+    "sha256": "91782ebfaacde6230472fbadd4a834ced1556f76bf7981ea5b760bfa7b6471b3",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/sensors.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/singular_spectrum.png",
+    "bytes": 33462,
+    "sha256": "6068557e7c98ab70d6c4ae97774392e9084edba80277b23425956aaa84b5061a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/singular_spectrum.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/travel_time_fit.png",
+    "bytes": 81597,
+    "sha256": "7f83953bb8e195d0a1f9f411a5933f71247700d5012425fc9ad47a3a59f2528a",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/travel_time_fit.png"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/truth_metrics.json",
+    "bytes": 192,
+    "sha256": "9764695e12f49c1dff5242c0202c3a85bd081c2cad1fab452f8ad09ae9bdd9db",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/truth_metrics.json"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/velocity_fields.npz",
+    "bytes": 2017358,
+    "sha256": "380347d8569e4535af851a07891e40e5fbb28f3c1c98c15a1f43e83328f9bd76",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/velocity_fields.npz"
+  },
+  {
+    "path": "examples/03_ball_50cm/results/velocity_slices.png",
+    "bytes": 215654,
+    "sha256": "21709d051443dc6da43206c422a4aef16a24e68d7a33b5fe2f635f75f0e7ddd7",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_50cm_travel_time_20khz/velocity_slices.png"
+  },
+  {
+    "path": "examples/04_scale_comparison/results/metrics.json",
+    "bytes": 1834,
+    "sha256": "f649fa5691ae20098eae5dbc12ad5101743e8c396b02ebe3c722fb493f1a0069",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_scale_study/metrics.json"
+  },
+  {
+    "path": "examples/04_scale_comparison/results/scale_comparison.png",
+    "bytes": 164536,
+    "sha256": "1e1b3fb2051876b5097c9e65b1b82f774a8bccfa30e585163c024b8509f5b9f7",
+    "source": "Water_USCT_3D_benchmark/outputs/unit_ball_scale_study/scale_comparison.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_matched_wake_axial_profiles_t30p969.png",
+    "bytes": 154811,
+    "sha256": "1641dcb8fc02145f87025bb0558f0eb0d7ffd3062c1de14dc59328d50d02b4ba",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_matched_wake_axial_profiles_t30p969.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_matched_wake_cross_sections_t30p969.png",
+    "bytes": 274549,
+    "sha256": "2fe528e65cf957fe5b9294b5d03d35e05002ba41c8fea36057d3d7a6e958c206",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_matched_wake_cross_sections_t30p969.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_matched_wake_overview_t30p969.png",
+    "bytes": 923300,
+    "sha256": "b05623a6be94d1d71feef794b3d259039cf232fe31dcc6382e6b651100d6d760",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_matched_wake_overview_t30p969.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_sphere_vs_no_sphere_common_times.png",
+    "bytes": 556931,
+    "sha256": "9468beef22994526e7eccbe8933d3804e25881f14e008099e71b10b543c79c66",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_sphere_vs_no_sphere_common_times.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_wake_time_evolution.gif",
+    "bytes": 250399,
+    "sha256": "07ca2bfb66684567575306e8a942b3c7b2f397d1180b1965bdfcf55e3aae1af3",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_wake_time_evolution.gif"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_forward/incflo_wake_time_evolution.png",
+    "bytes": 382587,
+    "sha256": "6f17516dd2b8afb553cfcec72b6b03b4c6ebe5b5479cf6a38491c1b3e5e6b0dd",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_forward/incflo_wake_time_evolution.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/acquisition.png",
+    "bytes": 75703,
+    "sha256": "5654d1fe47b9be5e5557111bae4c4c432cea2f5e44b4bbc45bcfa42e446eb0d6",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/acquisition.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/axial_metrics.png",
+    "bytes": 402733,
+    "sha256": "da10c40776de0983583116e2ad8b29a9da3d30f2c056533539a89b576022bf89",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/axial_metrics.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/basis_comparison_z1p65_provisional.png",
+    "bytes": 307416,
+    "sha256": "0bc1bf0b772dfb621ae67421b338dc17b910de5fe5d0ddb47f00c65cb8f4506e",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/basis_comparison_z1p65_provisional.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/ring_count_axial_error.png",
+    "bytes": 217127,
+    "sha256": "a4fd526a1f07e0ce0495b32caff96c9102a065fdd12a5729facdf1fdf61603fd",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/ring_count_axial_error.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/ring_count_tradeoff.png",
+    "bytes": 291502,
+    "sha256": "6b180816ca051cf54b0a897d71cd045c68cbdd6e365bd8b8eb909c9ae66d41d5",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/ring_count_tradeoff.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_axial_heatmap.png",
+    "bytes": 115450,
+    "sha256": "3ef45d75adadfcc9ab1a59af7fad17c1fd80316d4da21378edea40da10ca223c",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_axial_heatmap.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_gcv_diagnostic.png",
+    "bytes": 129655,
+    "sha256": "4a642740487011401ece08933c3271b06bc5eca9edb5ff1c7f0bd43a5fed93e7",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_gcv_diagnostic.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_reconstruction_z1.65.png",
+    "bytes": 224979,
+    "sha256": "1c0712b7677cdba134cf497f9142b54ec4b07df5ee4cc8849848786afade9150",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_reconstruction_z1.65.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_reconstruction_z2.25.png",
+    "bytes": 232040,
+    "sha256": "62ecbc479290ad104ee77cf67ba415531e283f604a45f89cfeab05a136034b18",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_reconstruction_z2.25.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_reconstruction_z5.85.png",
+    "bytes": 246331,
+    "sha256": "c37d2ce062c1ed680cdffff2044d3ea7e8c0a6bc1541c991686f0bb417930b7b",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_reconstruction_z5.85.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/sensor_density_tradeoff.png",
+    "bytes": 301567,
+    "sha256": "b005da88326a76fda86563e435b23c5817ea4b74b2bd7d23e1e2c183d64accde",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/sensor_density_tradeoff.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/ux_multiwindow_truth_reconstruction_error.png",
+    "bytes": 962061,
+    "sha256": "5788311754b69a3d67c82406e385ae32dc142bd28ca7936781be96a902c2ccf2",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/ux_multiwindow_truth_reconstruction_error.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/uy_multiwindow_truth_reconstruction_error.png",
+    "bytes": 853217,
+    "sha256": "b4fba5277e7774703615f20ca7c727c72be4898eac20bcc0c546b38d335771bf",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/uy_multiwindow_truth_reconstruction_error.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/figures/incflo_tt/uz_multiwindow_truth_reconstruction_error.png",
+    "bytes": 888290,
+    "sha256": "a8067a45008a5d70e7cc21f252d36a9242dadd0d17fd9282037ff71aa6cbb750",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/incflo_tt/uz_multiwindow_truth_reconstruction_error.png"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_forward/comparison_report.json",
+    "bytes": 1403,
+    "sha256": "f94a4bacbdc8cca68988c1b8b426874c3bfe1ddab83e5c0e9a9de1b3480a45ad",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_forward/comparison_report.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_forward/comparison_summary.json",
+    "bytes": 1677,
+    "sha256": "4707b456ee0069c6f81194057636a4f7b2dd9416227ea6b914baad7e2928cb76",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_forward/comparison_summary.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_forward/incflo_matched_wake_axial_profiles_t30p969.csv",
+    "bytes": 38651,
+    "sha256": "87d9c8925187ccde8f98d5e32898daa438ad96a88c9437084a926c8faeefe0c1",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_forward/incflo_matched_wake_axial_profiles_t30p969.csv"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_forward/physical_report_step05661.json",
+    "bytes": 1293,
+    "sha256": "9007e96f09cdfdc682a3005688f1046ddfdc78cfd45a9fa0c5ece5f67f57ece9",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_forward/physical_report_step05661.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_forward/visualization_report.json",
+    "bytes": 1576,
+    "sha256": "d40b1ddff7af82469d8718e0654ffeca3368de3ec9eb0651396aba682caafe86",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_forward/visualization_report.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/acquisition.json",
+    "bytes": 138611,
+    "sha256": "d3fbb8a003a4d958220015153bfb6206e6519b43a043422acfb1fc907d43f8b6",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/acquisition.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/axial_metrics.csv",
+    "bytes": 3952,
+    "sha256": "d9ff29a55f42eaf6dbc48475c67808e7d2183e8f93ae67611d200fca94bf38e9",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/axial_metrics.csv"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/report.json",
+    "bytes": 510319,
+    "sha256": "9bc15a225e93097beb31189241a701c4ed9a78a6ec77b22e79ee9fd636ac70a1",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/report.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/ring_count_summary.csv",
+    "bytes": 1500,
+    "sha256": "280024f35827b226ec667963dc396e15be90ed0699d3d519c3e160ee3360a31c",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/ring_count_summary.csv"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/ring_count_summary.json",
+    "bytes": 3899,
+    "sha256": "791531c7f58184e8fcd90e0934d3ab3a4d2792d8d879333bc58d4770339273d6",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/ring_count_summary.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/sensor_density_summary.csv",
+    "bytes": 1519,
+    "sha256": "14f09ee23259637dcc3401679853b678089e09621bd71577b0b31d245d1244a6",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/sensor_density_summary.csv"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/metrics/incflo_tt/sensor_density_summary.json",
+    "bytes": 3427,
+    "sha256": "1bb2ef97b5a45165ba9525d50802c5ad56365c9d6872fefbeded2123abc88e68",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/incflo_tt/sensor_density_summary.json"
+  },
+  {
+    "path": "examples/05_sphere_wake/results/provenance/raw_artifacts.json",
+    "bytes": 1818,
+    "sha256": "9dc6a6109bf327b13bed251a9750177109267e1bafdf18e5b7b281d2f90e016b",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/provenance/raw_artifacts.json"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/figures/aux_frequency/five_xy_slices_error_100_vs_300khz.png",
+    "bytes": 349474,
+    "sha256": "bd928397736af949dcabad478f3db6a1cc6ef23666f2e887c6db5e09c3bc9ff2",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_frequency/five_xy_slices_error_100_vs_300khz.png"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/figures/aux_frequency/five_xy_slices_truth_100_vs_300khz.png",
+    "bytes": 465543,
+    "sha256": "cec1326f91121843f034804536f8c050cb4091c7276958f5e43bcd2e54bbfa05",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_frequency/five_xy_slices_truth_100_vs_300khz.png"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/figures/aux_frequency/ux_five_slices_gt_reconstruction_error.png",
+    "bytes": 309898,
+    "sha256": "855e130154f6ec72db61e99f692651702793d8fe7e111af9adaffeed52ad5422",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_frequency/ux_five_slices_gt_reconstruction_error.png"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/figures/aux_frequency/uy_five_slices_gt_reconstruction_error.png",
+    "bytes": 304003,
+    "sha256": "679503abd2643d3d7586a56f192cc62c603812d4addd06882463cae8a448efd4",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_frequency/uy_five_slices_gt_reconstruction_error.png"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/figures/aux_frequency/uz_five_slices_gt_reconstruction_error.png",
+    "bytes": 339991,
+    "sha256": "684626feef6b29809433ae9c2720502650a980fc3845d216f3ad3db6cefce5a4",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_frequency/uz_five_slices_gt_reconstruction_error.png"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/metrics/aux_frequency/five_slice_metrics.json",
+    "bytes": 3026,
+    "sha256": "ec5f5d6bc8e556e26ef10a1b20969951aa1b8c9a0a6b6e0c0456822d691e8e6f",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_frequency/five_slice_metrics.json"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/metrics/aux_frequency/report_100khz.json",
+    "bytes": 51091,
+    "sha256": "a33acc4513b253f568b96a3259006b8c5d5b47ffa0319c81eeb5399b80bfb725",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_frequency/report_100khz.json"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/metrics/aux_frequency/report_150khz.json",
+    "bytes": 50780,
+    "sha256": "892237c68398de086e615312bfed361e78e6a0c6a30a56adbb7b8cfc7d6e7a1d",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_frequency/report_150khz.json"
+  },
+  {
+    "path": "examples/06_frequency_ablation/results/metrics/aux_frequency/report_300khz.json",
+    "bytes": 50816,
+    "sha256": "0fc6ce5619fe0a8a8b49e3539115715fd12bd6cc13e042582f49a3ce9a3446d6",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_frequency/report_300khz.json"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/figures/aux_sensor_count/central_reconstruction_errors.png",
+    "bytes": 223094,
+    "sha256": "2266b8aa1e1801140cf3a06d133b1a6956b955c958f9a26366c84f7e0519fff7",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_sensor_count/central_reconstruction_errors.png"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/figures/aux_sensor_count/central_truth_and_reconstructions.png",
+    "bytes": 258317,
+    "sha256": "56cf43c77ad788687ac4e0df0be7852690952bd17dc9c86ecb8e5d754b126a66",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_sensor_count/central_truth_and_reconstructions.png"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/figures/aux_sensor_count/five_slice_error_curves.png",
+    "bytes": 143023,
+    "sha256": "d9bced11a833b6b50741092477d89a6157e123ffe5b0fe29ccaf22b4045b1166",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_sensor_count/five_slice_error_curves.png"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/figures/aux_sensor_count/quality_vs_sensor_count.png",
+    "bytes": 227633,
+    "sha256": "8d5fdfa48961f2025ce6097b6bbb2b2b1652651c0d1f3834e81e469318e3638b",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/figures/aux_sensor_count/quality_vs_sensor_count.png"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/metrics/aux_sensor_count/metrics.csv",
+    "bytes": 1263,
+    "sha256": "1d2c17a18c3bc4f752a1fc12092045dce01565eadb1e78aab61448ee605950ef",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_sensor_count/metrics.csv"
+  },
+  {
+    "path": "examples/07_sensor_count_ablation/results/metrics/aux_sensor_count/report.json",
+    "bytes": 55026,
+    "sha256": "04c04b636524913f6587e90e39e20e9848619ed4f8a97ee0ec3f703d025723d9",
+    "source": "Water_USCT_3D_benchmark/sphere_3d/results/metrics/aux_sensor_count/report.json"
+  }
+]

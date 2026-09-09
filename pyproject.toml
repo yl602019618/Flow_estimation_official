@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flow-estimation-official"
+version = "0.1.0"
+description = "Three-dimensional flow estimation from reciprocal ultrasound travel times"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.0", "PyYAML", "h5py>=3.8", "matplotlib>=3.7", "pillow>=9.5"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+cfd = ["yt"]
+
+[project.scripts]
+flow-duct = "water_usct_3d.cli:main"
+flow-ball = "water_usct_3d.sphere.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["water_usct_3d*", "incflo_multiring_tt_study*", "incflo_sphere_wake_comparison*", "multislice_xyz_tt_study*", "midplane_xy_tt_study*", "long_domain_multislice_tt_study*"]
+
+[tool.setuptools.package-data]
+incflo_sphere_wake_comparison = ["inputs/*", "scripts/*.sh", "versions.env"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]

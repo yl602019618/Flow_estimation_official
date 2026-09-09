@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "truth_origin": "converged MAC RK2 projection solver",
+  "trace_shape": [
+    24,
+    24,
+    800
+  ],
+  "ordered_traces": 552,
+  "finite": true,
+  "noise_max_abs": 0.0,
+  "ux_max_abs_m_s": 0.0,
+  "uy_max_abs_m_s": 0.0,
+  "uz_min_m_s": 0.0,
+  "uz_max_m_s": 0.9999933838844299,
+  "static_reciprocity_error": 5.121260344789113e-07,
+  "axial_delay_sign_fraction": 1.0,
+  "axial_delay_correlation_with_straight_ray": 0.9258537481375938,
+  "axial_delay_relative_straight_ray_error": 0.24959316294462697,
+  "axial_delay_median_abs_ns": 35.15393940248213,
+  "same_ring_delay_median_abs_ns": 0.0007206676305258042,
+  "delay_quality_min": 0.9997024514090335,
+  "delay_quality_median": 0.9999871204799614,
+  "ray_matrix_shape": [
+    276,
+    864
+  ],
+  "ray_effective_rank": 276,
+  "ray_condition_number_nonzero": 2780.0934326523716,
+  "artifacts": [
+    "outputs/demo_3d_50khz/matched_clean/reciprocal_delays.h5",
+    "outputs/demo_3d_50khz/matched_clean/matched_clean_flow_delay_diagnostics.png",
+    "outputs/demo_3d_50khz/matched_clean/matched_clean_flow_delay_diagnostics.pdf"
+  ]
+}

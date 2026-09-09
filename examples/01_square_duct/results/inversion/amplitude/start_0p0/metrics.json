@@ -1,0 +1,11 @@
+{
+  "stage": "amplitude",
+  "initial_beta": 0.0,
+  "beta": 0.9998422861099243,
+  "truth_beta_projection": 0.9998980164527893,
+  "relative_beta_error": 5.5736027022733446e-05,
+  "passed": true,
+  "iterations": 60,
+  "artifact": "outputs/demo_3d_50khz/inversion/amplitude/start_0p0/model.h5",
+  "formal": true
+}

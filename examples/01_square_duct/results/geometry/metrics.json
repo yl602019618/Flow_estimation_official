@@ -1,0 +1,23 @@
+{
+  "central_rank": 3,
+  "central_min_eigenvalue": 0.9501613120294059,
+  "central_normalized_min_eigenvalue": 0.01412466144225978,
+  "central_condition_max": 34.89907855802072,
+  "pass": true,
+  "nominal_metrics": {
+    "central_rank": 3,
+    "central_min_eigenvalue": 0.9501613120294059,
+    "central_normalized_min_eigenvalue": 0.01412466144225978,
+    "central_condition_max": 34.89907855802072,
+    "pass": true
+  },
+  "geometry_search_triggered": false,
+  "selected_ring_z": null,
+  "selected_perimeter_offsets": null,
+  "candidates_evaluated": 0,
+  "identifiability_claim": "general three-component",
+  "transducers": 24,
+  "ordered_traces": 552,
+  "reciprocal_pairs": 276,
+  "artifact": "outputs/demo_3d_50khz/geometry/coverage.npz"
+}

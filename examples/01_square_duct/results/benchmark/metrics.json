@@ -1,0 +1,23 @@
+{
+  "environment": {
+    "python": "3.12.12",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "cuda_version": "13.0",
+    "gpu_count": 2,
+    "gpus": [
+      "NVIDIA GeForce RTX 5090",
+      "NVIDIA GeForce RTX 5090"
+    ]
+  },
+  "checkpoint_smoke_seconds": {
+    "8": 0.4122095871716738,
+    "16": 0.2417436703108251
+  },
+  "selected_checkpoint_steps_smoke": 16,
+  "formal_two_gpu_benchmark_complete": false,
+  "reason": "run production generation/FWI on the target two-RTX-5090 host before claiming the 60-minute gate",
+  "two_gpu_smoke_gradient_relative_error": 2.766261388842395e-07,
+  "two_gpu_smoke_loss_relative_error": 0.0,
+  "two_gpu_gradient_gate_pass": true
+}

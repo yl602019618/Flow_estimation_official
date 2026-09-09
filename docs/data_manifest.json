@@ -1,0 +1,32 @@
+[
+  {
+    "path": "examples/05_sphere_wake/data/incflo_snapshot_t30p969.h5",
+    "bytes": 165790399,
+    "sha256": "7b1ddea10d041ae901ec53b5db3666ee4636426f5a7e1ebf7e57ff9f97ba8fa3",
+    "source": "/home/pisquare/zhijun/Water_USCT/incflo_multiring_tt_study/data/incflo_snapshot_t30p969.h5"
+  },
+  {
+    "path": "examples/05_sphere_wake/data/incflo_baseline_t30p969.h5",
+    "bytes": 158259804,
+    "sha256": "f63fdd6c65efb6bd41abb236c58577ca5c1daf23ada5879ae302ca434d8b7b4b",
+    "source": "/home/pisquare/zhijun/Water_USCT/incflo_multiring_tt_study/data/incflo_baseline_t30p969.h5"
+  },
+  {
+    "path": "examples/05_sphere_wake/data/provisional_pytorch_baseline.h5",
+    "bytes": 47580690,
+    "sha256": "15c8b0de63b7054622d20a09d2010d257a3f99c39364ce43436da9701ead510b",
+    "source": "/home/pisquare/zhijun/Water_USCT/incflo_multiring_tt_study/data/provisional_pytorch_baseline.h5"
+  },
+  {
+    "path": "examples/06_frequency_ablation/data/frozen_production_snapshot_104.h5",
+    "bytes": 76977025,
+    "sha256": "840293ac7f496618593cfe9f641992593a323698a0146cce6adb53e75e62dfdd",
+    "source": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/frozen_production_snapshot_104.h5"
+  },
+  {
+    "path": "examples/06_frequency_ablation/data/flow_pilot_baseline_re500_10s_clean.h5",
+    "bytes": 610796815,
+    "sha256": "d4d0c4ebdbb4f09640fd59ffd36322757cf7f5dc5982e32e7aa1d8e9ec06b528",
+    "source": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/flow_pilot_baseline_re500_10s_clean.h5"
+  }
+]

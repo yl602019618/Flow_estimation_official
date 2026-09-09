@@ -1,0 +1,14 @@
+{
+  "case": "matched_clean",
+  "data_path": "outputs/demo_3d_50khz/matched_clean/data.h5",
+  "ordered_traces": 552,
+  "noise_rms_fraction": 0.0,
+  "generation_grid": [
+    33,
+    33,
+    65,
+    800
+  ],
+  "validation_passed": true,
+  "validation_metrics": "outputs/demo_3d_50khz/matched_clean/validation_metrics.json"
+}

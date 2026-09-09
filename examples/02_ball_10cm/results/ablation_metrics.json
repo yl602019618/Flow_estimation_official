@@ -1,0 +1,46 @@
+[
+  {
+    "max_radius_error": 1.1102230246251565e-16,
+    "maximum_condition_number": 2.051221345410029,
+    "minimum_normalized_eigenvalue": 0.6338331069367359,
+    "minimum_point_separation": 0.5458188624101745,
+    "minimum_rank": 3,
+    "n_pairs": 496,
+    "n_transducers": 32,
+    "ray_condition_number": 16.035735883850318,
+    "ray_rank": 364
+  },
+  {
+    "max_radius_error": 1.1102230246251565e-16,
+    "maximum_condition_number": 1.3520958171039341,
+    "minimum_normalized_eigenvalue": 0.8216537499030132,
+    "minimum_point_separation": 0.44583254670779143,
+    "minimum_rank": 3,
+    "n_pairs": 1128,
+    "n_transducers": 48,
+    "ray_condition_number": 3.798154277698905,
+    "ray_rank": 364
+  },
+  {
+    "max_radius_error": 1.1102230246251565e-16,
+    "maximum_condition_number": 1.2162185411157806,
+    "minimum_normalized_eigenvalue": 0.8885455865519803,
+    "minimum_point_separation": 0.386191064575983,
+    "minimum_rank": 3,
+    "n_pairs": 2016,
+    "n_transducers": 64,
+    "ray_condition_number": 2.6509088666830354,
+    "ray_rank": 364
+  },
+  {
+    "max_radius_error": 1.1102230246251565e-16,
+    "maximum_condition_number": 1.179474717032303,
+    "minimum_normalized_eigenvalue": 0.9069564521356307,
+    "minimum_point_separation": 0.3154032796977391,
+    "minimum_rank": 3,
+    "n_pairs": 4560,
+    "n_transducers": 96,
+    "ray_condition_number": 2.254003342840991,
+    "ray_rank": 364
+  }
+]

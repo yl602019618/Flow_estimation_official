@@ -1,0 +1,37 @@
+{
+  "stage": "profile_fwi",
+  "formal": false,
+  "protocol": "development_2_per_band",
+  "initialization": "blurred_travel_time",
+  "truth_policy": "truth excluded from initialization and optimization; post-hoc scoring only",
+  "optimizer": "exact_full-shot gradient with bounded Armijo backtracking",
+  "iterations_per_band": 2,
+  "accepted_iterations": 8,
+  "gradient_evaluations": 8,
+  "max_armijo_backtracks": 3,
+  "shots_per_gpu": 12,
+  "initial_profile_relative_l2": 0.3554933965206146,
+  "final_profile_relative_l2": 0.13290956616401672,
+  "profile_correlation": 0.9988600015640259,
+  "initial_65khz_flow_waveform_loss": 0.07080084085464478,
+  "final_65khz_flow_waveform_loss": 0.010701621882617474,
+  "waveform_loss_reduction": 0.8488489389419556,
+  "model_not_worse": true,
+  "constraints": {
+    "wall_max_m_per_s": 0.0,
+    "transverse_max_m_per_s": 0.0,
+    "z_variation_max_m_per_s": 0.0,
+    "relative_divergence": 0.0
+  },
+  "passed": false,
+  "artifacts": [
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/model.h5",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/history.csv",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_models.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_models.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_history.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_history.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_initial_model.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/blurred_travel_time/axial_fwi_initial_model.pdf"
+  ]
+}

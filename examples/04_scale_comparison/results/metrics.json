@@ -1,0 +1,47 @@
+{
+  "cases": {
+    "10cm_100khz": {
+      "clean_relative_l2": 0.025345190288409737,
+      "frequency_hz": 100000.0,
+      "fullwave_ray_rmse_ns": 0.776578926902091,
+      "grid_difference_rms_ns": 0.42298521072019063,
+      "noise_10ns_correlation": 0.9901515497099711,
+      "noise_10ns_peak_snr_db": 39.93608451527332,
+      "noise_10ns_relative_l2": 0.14042648483153136,
+      "noise_5ns_correlation": 0.9962377453906985,
+      "noise_5ns_peak_snr_db": 46.345376305419144,
+      "noise_5ns_relative_l2": 0.08700057748016783,
+      "radius_m": 0.1
+    },
+    "50cm_20khz": {
+      "clean_relative_l2": 0.02534546369690252,
+      "frequency_hz": 20000.0,
+      "fullwave_ray_rmse_ns": 3.882963389952031,
+      "grid_difference_rms_ns": 2.114636851482228,
+      "noise_10ns_correlation": 0.9989616812336903,
+      "noise_10ns_peak_snr_db": 53.9864437307409,
+      "noise_10ns_relative_l2": 0.04617836031223366,
+      "noise_5ns_correlation": 0.9995592827449528,
+      "noise_5ns_peak_snr_db": 60.32379320962487,
+      "noise_5ns_relative_l2": 0.03067163567604497,
+      "radius_m": 0.5
+    }
+  },
+  "fixed_50cm_100khz_feasibility": {
+    "all_source_split_state_lower_bound_gib": 358.18640077114105,
+    "diameter_wavelengths": 67.56756756756756,
+    "note": "lower-bound memory excludes PML, velocity, derivatives, and stencil temporaries",
+    "required_fine_grid_n": 481,
+    "required_grid_points": 111284641,
+    "work_multiplier_vs_10cm_100khz": 625.0
+  },
+  "similarity": {
+    "diameter_wavelengths_10cm": 13.513513513513514,
+    "diameter_wavelengths_50cm_20khz": 13.513513513513514,
+    "frequency_scale": 0.2,
+    "radius_scale": 5.0,
+    "reciprocal_delay_fitted_scale": 4.999996768885493,
+    "reciprocal_delay_scaling_correlation": 0.9999999998654542,
+    "reciprocal_delay_scaling_rmse_ns": 0.003334728810184694
+  }
+}

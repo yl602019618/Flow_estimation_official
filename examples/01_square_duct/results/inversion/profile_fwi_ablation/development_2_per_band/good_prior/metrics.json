@@ -1,0 +1,37 @@
+{
+  "stage": "profile_fwi",
+  "formal": false,
+  "protocol": "development_2_per_band",
+  "initialization": "good_prior",
+  "truth_policy": "truth excluded from initialization and optimization; post-hoc scoring only",
+  "optimizer": "exact_full-shot gradient with bounded Armijo backtracking",
+  "iterations_per_band": 2,
+  "accepted_iterations": 6,
+  "gradient_evaluations": 6,
+  "max_armijo_backtracks": 3,
+  "shots_per_gpu": 12,
+  "initial_profile_relative_l2": 0.04814207926392555,
+  "final_profile_relative_l2": 0.042453814297914505,
+  "profile_correlation": 0.999104380607605,
+  "initial_65khz_flow_waveform_loss": 0.002621597843244672,
+  "final_65khz_flow_waveform_loss": 0.0020326499361544847,
+  "waveform_loss_reduction": 0.22465229034423828,
+  "model_not_worse": true,
+  "constraints": {
+    "wall_max_m_per_s": 0.0,
+    "transverse_max_m_per_s": 0.0,
+    "z_variation_max_m_per_s": 0.0,
+    "relative_divergence": 0.0
+  },
+  "passed": true,
+  "artifacts": [
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/model.h5",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/history.csv",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_models.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_models.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_history.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_history.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_initial_model.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/development_2_per_band/good_prior/axial_fwi_initial_model.pdf"
+  ]
+}

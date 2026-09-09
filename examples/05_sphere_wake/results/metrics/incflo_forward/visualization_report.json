@@ -1,0 +1,46 @@
+{
+  "sphere": "/home/pisquare/zhijun/Water_USCT/incflo_multiring_tt_study/data/incflo_snapshot_t30p969.h5",
+  "baseline": "/home/pisquare/zhijun/Water_USCT/incflo_multiring_tt_study/data/incflo_baseline_t30p969.h5",
+  "time_s": 30.96900000000106,
+  "grid": [
+    144,
+    144,
+    768
+  ],
+  "domain_left_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "domain_right_m": [
+    1.5,
+    1.5,
+    8.0
+  ],
+  "matched": true,
+  "metrics": {
+    "roi_z_m": [
+      1.0,
+      7.05
+    ],
+    "component_rms_mean_m_s": [
+      0.00853628758341074,
+      0.010426405817270279,
+      0.02589484117925167
+    ],
+    "component_rms_max_m_s": [
+      0.030803877860307693,
+      0.04472679644823074,
+      0.10762336850166321
+    ],
+    "centerline_duz_min_m_s": -0.6276171207427979,
+    "centerline_duz_max_m_s": 0.0224439837038517
+  },
+  "figures": [
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_matched_visualization/incflo_matched_wake_overview_t30p969.png",
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_matched_visualization/incflo_matched_wake_cross_sections_t30p969.png",
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_matched_visualization/incflo_matched_wake_axial_profiles_t30p969.png",
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_matched_visualization/incflo_wake_time_evolution.png"
+  ],
+  "gif": "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_matched_visualization/incflo_wake_time_evolution.gif"
+}

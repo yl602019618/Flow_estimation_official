@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "beta": 0.9998422861099243,
+  "model_relative_l2": 0.0002192340762121603,
+  "nonlinear_runtime_seconds": 121.62044401979074,
+  "bands": {
+    "20000": {
+      "final_loss": 2.5201658793681803e-13,
+      "initial_zero_loss": 7.5523421401157975e-06,
+      "loss_reduction": 0.9999999666306713,
+      "final_relative_waveform_error": 4.817105150323187e-07,
+      "initial_relative_waveform_error": 0.0031562973745167255
+    },
+    "35000": {
+      "final_loss": 8.12033139297938e-14,
+      "initial_zero_loss": 3.986314823123394e-06,
+      "loss_reduction": 0.999999979629478,
+      "final_relative_waveform_error": 3.7944425912428414e-07,
+      "initial_relative_waveform_error": 0.0029686319176107645
+    },
+    "50000": {
+      "final_loss": 1.1113070912723705e-13,
+      "initial_zero_loss": 5.717032763641328e-06,
+      "loss_reduction": 0.9999999805614707,
+      "final_relative_waveform_error": 4.4167688884044765e-07,
+      "initial_relative_waveform_error": 0.003127774689346552
+    },
+    "65000": {
+      "final_loss": 1.1943671420801272e-13,
+      "initial_zero_loss": 1.004120258585317e-05,
+      "loss_reduction": 0.9999999881053376,
+      "final_relative_waveform_error": 4.928016323901829e-07,
+      "initial_relative_waveform_error": 0.003963429480791092
+    },
+    "full": {
+      "final_loss": 3.422836829507919e-13,
+      "initial_zero_loss": 2.5092867872444913e-05,
+      "loss_reduction": 0.9999999863593239,
+      "final_relative_waveform_error": 7.406071631521627e-07,
+      "initial_relative_waveform_error": 0.005817614030092955
+    }
+  }
+}

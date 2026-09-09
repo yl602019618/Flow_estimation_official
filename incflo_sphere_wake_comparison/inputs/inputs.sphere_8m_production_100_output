@@ -1,0 +1,74 @@
+# Same as the no-I/O case, with a final plotfile for physical diagnostics.
+stop_time = -1
+max_step = 100
+steady_state = 0
+
+incflo.fixed_dt = 0.003
+incflo.dt_change_max = 1.05
+incflo.cfl = 0.25
+incflo.do_initial_proj = true
+incflo.do_initial_pressure_proj = false
+incflo.initial_iterations = 3
+
+amr.n_cell = 120 120 640
+amr.max_level = 0
+amr.max_grid_size = 80
+amr.blocking_factor = 8
+amr.regrid_int = -1
+amr.plot_int = 100
+amr.check_int = -1
+amr.plot_file = plt_sphere_production100
+amr.plotVariables = velx vely velz magvel vort vfrac
+
+geometry.prob_lo = 0.0 0.0 0.0
+geometry.prob_hi = 1.5 1.5 8.0
+geometry.is_periodic = 0 0 0
+
+xlo.type = no_slip_wall
+xlo.velocity = 0.0 0.0 0.0
+xhi.type = no_slip_wall
+xhi.velocity = 0.0 0.0 0.0
+ylo.type = no_slip_wall
+ylo.velocity = 0.0 0.0 0.0
+yhi.type = no_slip_wall
+yhi.velocity = 0.0 0.0 0.0
+zlo.type = mass_inflow
+zlo.velocity = 0.0 0.0 0.5
+zlo.density = 998.0
+zhi.type = pressure_outflow
+zhi.pressure = 0.0
+
+incflo.geometry = sphere
+sphere.internal_flow = false
+sphere.radius = 0.15
+sphere.center = 0.75 0.75 0.75
+incflo.write_eb_surface = false
+
+incflo.constant_density = true
+incflo.ro_0 = 998.0
+incflo.fluid_model = newtonian
+incflo.mu = 0.2994
+incflo.gravity = 0.0 0.0 0.0
+incflo.advection_type = MOL
+incflo.advect_momentum = false
+incflo.diffusion_type = 0
+incflo.use_tensor_solve = false
+incflo.use_tensor_correction = false
+incflo.redistribution_type = StateRedist
+incflo.ic_u = 0.0
+incflo.ic_v = 0.0
+incflo.ic_w = 0.5
+incflo.ic_p = 0.0
+
+incflo.verbose = 1
+mac_proj.verbose = 0
+mac_proj.bottom_verbose = 0
+mac_proj.bottom_solver = cg
+mac_proj.mg_rtol = 4.0e-4
+mac_proj.mg_atol = 1.0e-9
+mac_proj.maxiter = 200
+nodal_proj.verbose = 0
+nodal_proj.bottom_verbose = 0
+nodal_proj.mg_rtol = 2.0e-4
+nodal_proj.mg_atol = 1.0e-9
+nodal_proj.maxiter = 200

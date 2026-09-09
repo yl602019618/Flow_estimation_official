@@ -1,0 +1,9 @@
+{
+  "max_radius_error": 1.1102230246251565e-16,
+  "maximum_condition_number": 1.179474717032303,
+  "minimum_normalized_eigenvalue": 0.9069564521356307,
+  "minimum_point_separation": 0.3154032796977391,
+  "minimum_rank": 3,
+  "n_pairs": 4560,
+  "n_transducers": 96
+}

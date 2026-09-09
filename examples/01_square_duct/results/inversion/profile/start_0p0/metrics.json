@@ -1,0 +1,42 @@
+{
+  "stage": "profile",
+  "initial_beta": 0.0,
+  "beta": 0.9998422861099243,
+  "truth_beta_projection": 0.9998980164527893,
+  "relative_beta_error": 0.000055736027022733446,
+  "profile_relative_l2": 0.04814207926392555,
+  "profile_correlation": 0.9988409280776978,
+  "selected_candidate": "amplitude_prior",
+  "candidates": [
+    {
+      "name": "amplitude_prior",
+      "waveform_loss": 9.192832273186013E-9,
+      "delay_relative_residual": 0.30938369035720825,
+      "control_min": -8.832217446297363E-8,
+      "control_max": 0.9998423457145691
+    },
+    {
+      "name": "delay_updated",
+      "waveform_loss": 7.827452463970985E-8,
+      "delay_relative_residual": 0.22852234542369843,
+      "control_min": -8.832217446297363E-8,
+      "control_max": 1.283246636390686
+    }
+  ],
+  "passed": true,
+  "iterations": 2,
+  "artifact": "outputs/demo_3d_50khz/inversion/profile/start_0p0/model.h5",
+  "formal": true,
+  "profile_constraints": {
+    "wall_max_m_per_s": 0.0,
+    "transverse_max_m_per_s": 0.0,
+    "z_variation_max_m_per_s": 0.0,
+    "relative_divergence": 0.0
+  },
+  "profile_figures": [
+    "outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_inversion_diagnostics.png",
+    "outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_inversion_diagnostics.pdf",
+    "outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_candidate_comparison.png",
+    "outputs/demo_3d_50khz/inversion/profile/start_0p0/profile_candidate_comparison.pdf"
+  ]
+}

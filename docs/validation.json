@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-10",
+  "python": "3.12.12",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "torch": "2.11.0",
+    "PyYAML": "6.0.3",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.9",
+    "pillow": "10.4.0",
+    "pytest": "8.3.5",
+    "setuptools": "80.9.0"
+  },
+  "checks": {
+    "existing_tests_passed": 58,
+    "editable_install_in_isolated_venv": "passed (system site packages reused)",
+    "wheel_build": "passed",
+    "wheel_contains_all_six_packages_and_eight_cfd_inputs": true,
+    "cli_help": "passed",
+    "square_duct_geometry": "passed",
+    "square_duct_log_in_output_only": true,
+    "sphere_wake_array_design": "passed: 1968 sensors, 41 rings",
+    "scale_comparison_redraw": "passed",
+    "markdown_local_links": "passed",
+    "byte_identical_archived_results": 222,
+    "additional_hashed_flow_inputs": 5,
+    "shell_syntax": "passed"
+  },
+  "not_rerun": [
+    "full-wave acoustic propagation",
+    "incflo CFD",
+    "full inversion sweeps"
+  ],
+  "known_data_gap": "Example 07 original remote pilot HDF5 inputs are not available locally."
+}

@@ -1,0 +1,91 @@
+{
+  "case": "fine_clean",
+  "model_variant": "fwi",
+  "passed": true,
+  "selection_frozen": true,
+  "selected_from": "matched_clean",
+  "selected_candidate": "axial_fwi",
+  "profile_relative_l2": 0.04472905024886131,
+  "profile_correlation": 0.9989991188049316,
+  "initial_zero_flow_relative_l2": 1.0,
+  "not_worse_than_initialization": true,
+  "profile_error_threshold": 0.1,
+  "registered_model_gate_passed": true,
+  "static_calibrated_waveform_improved_over_zero_all_bands": true,
+  "raw_absolute_waveform_improved_over_zero_all_bands": false,
+  "static_calibration": "fine_static + (coarse_profile - coarse_static)",
+  "static_calibrated_bands": [
+    {
+      "cutoff_hz": 20000.0,
+      "waveform_loss": 1.3032134482671154e-08,
+      "zero_flow_loss": 7.244851076393388e-06,
+      "loss_reduction_from_zero": 0.9982011914253235,
+      "relative_waveform_error": 0.0001663462317083031
+    },
+    {
+      "cutoff_hz": 35000.0,
+      "waveform_loss": 6.874160352055014e-09,
+      "zero_flow_loss": 3.921130883099977e-06,
+      "loss_reduction_from_zero": 0.9982469081878662,
+      "relative_waveform_error": 0.00012673922174144536
+    },
+    {
+      "cutoff_hz": 50000.0,
+      "waveform_loss": 1.1790375786802088e-08,
+      "zero_flow_loss": 5.701068403141107e-06,
+      "loss_reduction_from_zero": 0.9979318976402283,
+      "relative_waveform_error": 0.00016433002019766718
+    },
+    {
+      "cutoff_hz": 65000.0,
+      "waveform_loss": 1.8785108579777443e-08,
+      "zero_flow_loss": 1.0049341653939337e-05,
+      "loss_reduction_from_zero": 0.998130738735199,
+      "relative_waveform_error": 0.00020339273032732308
+    }
+  ],
+  "raw_cross_grid_bands": [
+    {
+      "cutoff_hz": 20000.0,
+      "waveform_loss": 0.00028526189271360636,
+      "zero_flow_loss": 7.244851076393388e-06,
+      "loss_reduction_from_zero": -38.37443161010742,
+      "relative_waveform_error": 0.017687248066067696
+    },
+    {
+      "cutoff_hz": 35000.0,
+      "waveform_loss": 0.00010342102177673951,
+      "zero_flow_loss": 3.921130883099977e-06,
+      "loss_reduction_from_zero": -25.37530517578125,
+      "relative_waveform_error": 0.013663443736732006
+    },
+    {
+      "cutoff_hz": 50000.0,
+      "waveform_loss": 0.00014554806693922728,
+      "zero_flow_loss": 5.701068403141107e-06,
+      "loss_reduction_from_zero": -24.52996253967285,
+      "relative_waveform_error": 0.01602206751704216
+    },
+    {
+      "cutoff_hz": 65000.0,
+      "waveform_loss": 0.00022618267394136637,
+      "zero_flow_loss": 1.0049341653939337e-05,
+      "loss_reduction_from_zero": -21.507213592529297,
+      "relative_waveform_error": 0.021044813096523285
+    }
+  ],
+  "noise_rms_fraction_mean": 0.0,
+  "noise_rms_fraction_max_deviation": 0.0,
+  "noise_exact_gate_pass": true,
+  "constraints": {
+    "wall_max_m_per_s": 0.0,
+    "transverse_max_m_per_s": 0.0,
+    "z_variation_max_m_per_s": 0.0,
+    "relative_divergence": 0.0
+  },
+  "frozen_prediction": "outputs/demo_3d_50khz/inversion/profile_fwi/model.h5",
+  "figures": [
+    "outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_clean/frozen_profile_fine_clean.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi/validation/fine_clean/frozen_profile_fine_clean.pdf"
+  ]
+}

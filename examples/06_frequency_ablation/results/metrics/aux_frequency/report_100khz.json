@@ -1,0 +1,2583 @@
+{
+  "contract": {
+    "snapshot": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/frozen_production_snapshot_104.h5",
+    "baseline": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/flow_pilot_baseline_re500_10s_clean.h5",
+    "output": "multislice_xyz_tt_study/outputs/refined_240_100khz",
+    "length_xy_m": 1.5,
+    "slab_z_min_m": 2.1,
+    "slab_z_max_m": 2.9,
+    "sensor_z_m": [
+      2.2,
+      2.35,
+      2.5,
+      2.65,
+      2.8
+    ],
+    "sensors_per_layer": 48,
+    "frequency_hz": 100000.0,
+    "sound_speed_m_s": 1480.0,
+    "seed": 20260807,
+    "center_shape": [
+      13,
+      13,
+      7
+    ],
+    "sigma_xy_m": 0.11,
+    "sigma_z_m": 0.13,
+    "evaluation_shape": [
+      41,
+      41,
+      9
+    ],
+    "norm_shape": [
+      21,
+      21,
+      11
+    ],
+    "quadrature_order": 20,
+    "noise_repeats": 8,
+    "reference_noise_frequency_hz": 20000.0,
+    "reference_delay_sigma_s": 2.23713169990703e-09,
+    "run_pair_ablations": false,
+    "axial_fisher_weight_factor": 1.0,
+    "axial_sine_order": 0,
+    "full_wave_used": false,
+    "truth_used_for_hyperparameter_selection": false,
+    "truth_definition": "production sphere wake minus independent mature no-sphere flow",
+    "inverse_parameterization": "anisotropic localized curl basis with x/y no-slip envelope; exactly continuum divergence-free",
+    "ridge_selection": "GCV on observed line-integral data",
+    "primary_metrics": "wake-disturbance Ux', Uy', Uz', never total Uz dominated by 0.5 m/s base"
+  },
+  "truth_provenance": {
+    "snapshot": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/frozen_production_snapshot_104.h5",
+    "baseline": "/home/pisquare/zhijun/Water_USCT_3D_vortex/outputs/sphere_wake_3d_8khz/flow_pilot_baseline_re500_10s_clean.h5",
+    "snapshot_attributes": {
+      "balance": 0.4957699263121757,
+      "energy": 0.00020620549605661744,
+      "energy_tolerance": 0.2,
+      "enforce_gate": true,
+      "frame_index": 104,
+      "holdout_index": 123,
+      "minimum_balance": 0.4,
+      "source_artifact": "outputs/sphere_wake_3d_8khz/flow_production_sphere_re500_noslip.h5",
+      "time_s": 31.203
+    },
+    "baseline_average_times_s": [
+      8.004,
+      8.404,
+      8.804,
+      9.204,
+      9.604000000000001
+    ],
+    "truth_definition": "production sphere wake minus independent mature no-sphere flow"
+  },
+  "truth_metrics": {
+    "component_rms_m_s": [
+      0.009730116052328413,
+      0.006529746023080576,
+      0.020332140474657805
+    ],
+    "component_max_abs_m_s": [
+      0.10424609405484803,
+      0.07197946492016201,
+      0.20450467389822014
+    ]
+  },
+  "acquisition": {
+    "sensor_count": 240,
+    "sensors_per_layer": 48,
+    "layer_count": 5,
+    "full_pair_count": 21600,
+    "coordinates": [
+      [
+        0.0,
+        0.0625,
+        2.2
+      ],
+      [
+        0.0,
+        0.1875,
+        2.2
+      ],
+      [
+        0.0,
+        0.3125,
+        2.2
+      ],
+      [
+        0.0,
+        0.4375,
+        2.2
+      ],
+      [
+        0.0,
+        0.5625,
+        2.2
+      ],
+      [
+        0.0,
+        0.6875,
+        2.2
+      ],
+      [
+        0.0,
+        0.8125,
+        2.2
+      ],
+      [
+        0.0,
+        0.9375,
+        2.2
+      ],
+      [
+        0.0,
+        1.0625,
+        2.2
+      ],
+      [
+        0.0,
+        1.1875,
+        2.2
+      ],
+      [
+        0.0,
+        1.3125,
+        2.2
+      ],
+      [
+        0.0,
+        1.4375,
+        2.2
+      ],
+      [
+        1.5,
+        0.0625,
+        2.2
+      ],
+      [
+        1.5,
+        0.1875,
+        2.2
+      ],
+      [
+        1.5,
+        0.3125,
+        2.2
+      ],
+      [
+        1.5,
+        0.4375,
+        2.2
+      ],
+      [
+        1.5,
+        0.5625,
+        2.2
+      ],
+      [
+        1.5,
+        0.6875,
+        2.2
+      ],
+      [
+        1.5,
+        0.8125,
+        2.2
+      ],
+      [
+        1.5,
+        0.9375,
+        2.2
+      ],
+      [
+        1.5,
+        1.0625,
+        2.2
+      ],
+      [
+        1.5,
+        1.1875,
+        2.2
+      ],
+      [
+        1.5,
+        1.3125,
+        2.2
+      ],
+      [
+        1.5,
+        1.4375,
+        2.2
+      ],
+      [
+        0.0625,
+        0.0,
+        2.2
+      ],
+      [
+        0.1875,
+        0.0,
+        2.2
+      ],
+      [
+        0.3125,
+        0.0,
+        2.2
+      ],
+      [
+        0.4375,
+        0.0,
+        2.2
+      ],
+      [
+        0.5625,
+        0.0,
+        2.2
+      ],
+      [
+        0.6875,
+        0.0,
+        2.2
+      ],
+      [
+        0.8125,
+        0.0,
+        2.2
+      ],
+      [
+        0.9375,
+        0.0,
+        2.2
+      ],
+      [
+        1.0625,
+        0.0,
+        2.2
+      ],
+      [
+        1.1875,
+        0.0,
+        2.2
+      ],
+      [
+        1.3125,
+        0.0,
+        2.2
+      ],
+      [
+        1.4375,
+        0.0,
+        2.2
+      ],
+      [
+        0.0625,
+        1.5,
+        2.2
+      ],
+      [
+        0.1875,
+        1.5,
+        2.2
+      ],
+      [
+        0.3125,
+        1.5,
+        2.2
+      ],
+      [
+        0.4375,
+        1.5,
+        2.2
+      ],
+      [
+        0.5625,
+        1.5,
+        2.2
+      ],
+      [
+        0.6875,
+        1.5,
+        2.2
+      ],
+      [
+        0.8125,
+        1.5,
+        2.2
+      ],
+      [
+        0.9375,
+        1.5,
+        2.2
+      ],
+      [
+        1.0625,
+        1.5,
+        2.2
+      ],
+      [
+        1.1875,
+        1.5,
+        2.2
+      ],
+      [
+        1.3125,
+        1.5,
+        2.2
+      ],
+      [
+        1.4375,
+        1.5,
+        2.2
+      ],
+      [
+        0.0,
+        0.0625,
+        2.35
+      ],
+      [
+        0.0,
+        0.1875,
+        2.35
+      ],
+      [
+        0.0,
+        0.3125,
+        2.35
+      ],
+      [
+        0.0,
+        0.4375,
+        2.35
+      ],
+      [
+        0.0,
+        0.5625,
+        2.35
+      ],
+      [
+        0.0,
+        0.6875,
+        2.35
+      ],
+      [
+        0.0,
+        0.8125,
+        2.35
+      ],
+      [
+        0.0,
+        0.9375,
+        2.35
+      ],
+      [
+        0.0,
+        1.0625,
+        2.35
+      ],
+      [
+        0.0,
+        1.1875,
+        2.35
+      ],
+      [
+        0.0,
+        1.3125,
+        2.35
+      ],
+      [
+        0.0,
+        1.4375,
+        2.35
+      ],
+      [
+        1.5,
+        0.0625,
+        2.35
+      ],
+      [
+        1.5,
+        0.1875,
+        2.35
+      ],
+      [
+        1.5,
+        0.3125,
+        2.35
+      ],
+      [
+        1.5,
+        0.4375,
+        2.35
+      ],
+      [
+        1.5,
+        0.5625,
+        2.35
+      ],
+      [
+        1.5,
+        0.6875,
+        2.35
+      ],
+      [
+        1.5,
+        0.8125,
+        2.35
+      ],
+      [
+        1.5,
+        0.9375,
+        2.35
+      ],
+      [
+        1.5,
+        1.0625,
+        2.35
+      ],
+      [
+        1.5,
+        1.1875,
+        2.35
+      ],
+      [
+        1.5,
+        1.3125,
+        2.35
+      ],
+      [
+        1.5,
+        1.4375,
+        2.35
+      ],
+      [
+        0.0625,
+        0.0,
+        2.35
+      ],
+      [
+        0.1875,
+        0.0,
+        2.35
+      ],
+      [
+        0.3125,
+        0.0,
+        2.35
+      ],
+      [
+        0.4375,
+        0.0,
+        2.35
+      ],
+      [
+        0.5625,
+        0.0,
+        2.35
+      ],
+      [
+        0.6875,
+        0.0,
+        2.35
+      ],
+      [
+        0.8125,
+        0.0,
+        2.35
+      ],
+      [
+        0.9375,
+        0.0,
+        2.35
+      ],
+      [
+        1.0625,
+        0.0,
+        2.35
+      ],
+      [
+        1.1875,
+        0.0,
+        2.35
+      ],
+      [
+        1.3125,
+        0.0,
+        2.35
+      ],
+      [
+        1.4375,
+        0.0,
+        2.35
+      ],
+      [
+        0.0625,
+        1.5,
+        2.35
+      ],
+      [
+        0.1875,
+        1.5,
+        2.35
+      ],
+      [
+        0.3125,
+        1.5,
+        2.35
+      ],
+      [
+        0.4375,
+        1.5,
+        2.35
+      ],
+      [
+        0.5625,
+        1.5,
+        2.35
+      ],
+      [
+        0.6875,
+        1.5,
+        2.35
+      ],
+      [
+        0.8125,
+        1.5,
+        2.35
+      ],
+      [
+        0.9375,
+        1.5,
+        2.35
+      ],
+      [
+        1.0625,
+        1.5,
+        2.35
+      ],
+      [
+        1.1875,
+        1.5,
+        2.35
+      ],
+      [
+        1.3125,
+        1.5,
+        2.35
+      ],
+      [
+        1.4375,
+        1.5,
+        2.35
+      ],
+      [
+        0.0,
+        0.0625,
+        2.5
+      ],
+      [
+        0.0,
+        0.1875,
+        2.5
+      ],
+      [
+        0.0,
+        0.3125,
+        2.5
+      ],
+      [
+        0.0,
+        0.4375,
+        2.5
+      ],
+      [
+        0.0,
+        0.5625,
+        2.5
+      ],
+      [
+        0.0,
+        0.6875,
+        2.5
+      ],
+      [
+        0.0,
+        0.8125,
+        2.5
+      ],
+      [
+        0.0,
+        0.9375,
+        2.5
+      ],
+      [
+        0.0,
+        1.0625,
+        2.5
+      ],
+      [
+        0.0,
+        1.1875,
+        2.5
+      ],
+      [
+        0.0,
+        1.3125,
+        2.5
+      ],
+      [
+        0.0,
+        1.4375,
+        2.5
+      ],
+      [
+        1.5,
+        0.0625,
+        2.5
+      ],
+      [
+        1.5,
+        0.1875,
+        2.5
+      ],
+      [
+        1.5,
+        0.3125,
+        2.5
+      ],
+      [
+        1.5,
+        0.4375,
+        2.5
+      ],
+      [
+        1.5,
+        0.5625,
+        2.5
+      ],
+      [
+        1.5,
+        0.6875,
+        2.5
+      ],
+      [
+        1.5,
+        0.8125,
+        2.5
+      ],
+      [
+        1.5,
+        0.9375,
+        2.5
+      ],
+      [
+        1.5,
+        1.0625,
+        2.5
+      ],
+      [
+        1.5,
+        1.1875,
+        2.5
+      ],
+      [
+        1.5,
+        1.3125,
+        2.5
+      ],
+      [
+        1.5,
+        1.4375,
+        2.5
+      ],
+      [
+        0.0625,
+        0.0,
+        2.5
+      ],
+      [
+        0.1875,
+        0.0,
+        2.5
+      ],
+      [
+        0.3125,
+        0.0,
+        2.5
+      ],
+      [
+        0.4375,
+        0.0,
+        2.5
+      ],
+      [
+        0.5625,
+        0.0,
+        2.5
+      ],
+      [
+        0.6875,
+        0.0,
+        2.5
+      ],
+      [
+        0.8125,
+        0.0,
+        2.5
+      ],
+      [
+        0.9375,
+        0.0,
+        2.5
+      ],
+      [
+        1.0625,
+        0.0,
+        2.5
+      ],
+      [
+        1.1875,
+        0.0,
+        2.5
+      ],
+      [
+        1.3125,
+        0.0,
+        2.5
+      ],
+      [
+        1.4375,
+        0.0,
+        2.5
+      ],
+      [
+        0.0625,
+        1.5,
+        2.5
+      ],
+      [
+        0.1875,
+        1.5,
+        2.5
+      ],
+      [
+        0.3125,
+        1.5,
+        2.5
+      ],
+      [
+        0.4375,
+        1.5,
+        2.5
+      ],
+      [
+        0.5625,
+        1.5,
+        2.5
+      ],
+      [
+        0.6875,
+        1.5,
+        2.5
+      ],
+      [
+        0.8125,
+        1.5,
+        2.5
+      ],
+      [
+        0.9375,
+        1.5,
+        2.5
+      ],
+      [
+        1.0625,
+        1.5,
+        2.5
+      ],
+      [
+        1.1875,
+        1.5,
+        2.5
+      ],
+      [
+        1.3125,
+        1.5,
+        2.5
+      ],
+      [
+        1.4375,
+        1.5,
+        2.5
+      ],
+      [
+        0.0,
+        0.0625,
+        2.65
+      ],
+      [
+        0.0,
+        0.1875,
+        2.65
+      ],
+      [
+        0.0,
+        0.3125,
+        2.65
+      ],
+      [
+        0.0,
+        0.4375,
+        2.65
+      ],
+      [
+        0.0,
+        0.5625,
+        2.65
+      ],
+      [
+        0.0,
+        0.6875,
+        2.65
+      ],
+      [
+        0.0,
+        0.8125,
+        2.65
+      ],
+      [
+        0.0,
+        0.9375,
+        2.65
+      ],
+      [
+        0.0,
+        1.0625,
+        2.65
+      ],
+      [
+        0.0,
+        1.1875,
+        2.65
+      ],
+      [
+        0.0,
+        1.3125,
+        2.65
+      ],
+      [
+        0.0,
+        1.4375,
+        2.65
+      ],
+      [
+        1.5,
+        0.0625,
+        2.65
+      ],
+      [
+        1.5,
+        0.1875,
+        2.65
+      ],
+      [
+        1.5,
+        0.3125,
+        2.65
+      ],
+      [
+        1.5,
+        0.4375,
+        2.65
+      ],
+      [
+        1.5,
+        0.5625,
+        2.65
+      ],
+      [
+        1.5,
+        0.6875,
+        2.65
+      ],
+      [
+        1.5,
+        0.8125,
+        2.65
+      ],
+      [
+        1.5,
+        0.9375,
+        2.65
+      ],
+      [
+        1.5,
+        1.0625,
+        2.65
+      ],
+      [
+        1.5,
+        1.1875,
+        2.65
+      ],
+      [
+        1.5,
+        1.3125,
+        2.65
+      ],
+      [
+        1.5,
+        1.4375,
+        2.65
+      ],
+      [
+        0.0625,
+        0.0,
+        2.65
+      ],
+      [
+        0.1875,
+        0.0,
+        2.65
+      ],
+      [
+        0.3125,
+        0.0,
+        2.65
+      ],
+      [
+        0.4375,
+        0.0,
+        2.65
+      ],
+      [
+        0.5625,
+        0.0,
+        2.65
+      ],
+      [
+        0.6875,
+        0.0,
+        2.65
+      ],
+      [
+        0.8125,
+        0.0,
+        2.65
+      ],
+      [
+        0.9375,
+        0.0,
+        2.65
+      ],
+      [
+        1.0625,
+        0.0,
+        2.65
+      ],
+      [
+        1.1875,
+        0.0,
+        2.65
+      ],
+      [
+        1.3125,
+        0.0,
+        2.65
+      ],
+      [
+        1.4375,
+        0.0,
+        2.65
+      ],
+      [
+        0.0625,
+        1.5,
+        2.65
+      ],
+      [
+        0.1875,
+        1.5,
+        2.65
+      ],
+      [
+        0.3125,
+        1.5,
+        2.65
+      ],
+      [
+        0.4375,
+        1.5,
+        2.65
+      ],
+      [
+        0.5625,
+        1.5,
+        2.65
+      ],
+      [
+        0.6875,
+        1.5,
+        2.65
+      ],
+      [
+        0.8125,
+        1.5,
+        2.65
+      ],
+      [
+        0.9375,
+        1.5,
+        2.65
+      ],
+      [
+        1.0625,
+        1.5,
+        2.65
+      ],
+      [
+        1.1875,
+        1.5,
+        2.65
+      ],
+      [
+        1.3125,
+        1.5,
+        2.65
+      ],
+      [
+        1.4375,
+        1.5,
+        2.65
+      ],
+      [
+        0.0,
+        0.0625,
+        2.8
+      ],
+      [
+        0.0,
+        0.1875,
+        2.8
+      ],
+      [
+        0.0,
+        0.3125,
+        2.8
+      ],
+      [
+        0.0,
+        0.4375,
+        2.8
+      ],
+      [
+        0.0,
+        0.5625,
+        2.8
+      ],
+      [
+        0.0,
+        0.6875,
+        2.8
+      ],
+      [
+        0.0,
+        0.8125,
+        2.8
+      ],
+      [
+        0.0,
+        0.9375,
+        2.8
+      ],
+      [
+        0.0,
+        1.0625,
+        2.8
+      ],
+      [
+        0.0,
+        1.1875,
+        2.8
+      ],
+      [
+        0.0,
+        1.3125,
+        2.8
+      ],
+      [
+        0.0,
+        1.4375,
+        2.8
+      ],
+      [
+        1.5,
+        0.0625,
+        2.8
+      ],
+      [
+        1.5,
+        0.1875,
+        2.8
+      ],
+      [
+        1.5,
+        0.3125,
+        2.8
+      ],
+      [
+        1.5,
+        0.4375,
+        2.8
+      ],
+      [
+        1.5,
+        0.5625,
+        2.8
+      ],
+      [
+        1.5,
+        0.6875,
+        2.8
+      ],
+      [
+        1.5,
+        0.8125,
+        2.8
+      ],
+      [
+        1.5,
+        0.9375,
+        2.8
+      ],
+      [
+        1.5,
+        1.0625,
+        2.8
+      ],
+      [
+        1.5,
+        1.1875,
+        2.8
+      ],
+      [
+        1.5,
+        1.3125,
+        2.8
+      ],
+      [
+        1.5,
+        1.4375,
+        2.8
+      ],
+      [
+        0.0625,
+        0.0,
+        2.8
+      ],
+      [
+        0.1875,
+        0.0,
+        2.8
+      ],
+      [
+        0.3125,
+        0.0,
+        2.8
+      ],
+      [
+        0.4375,
+        0.0,
+        2.8
+      ],
+      [
+        0.5625,
+        0.0,
+        2.8
+      ],
+      [
+        0.6875,
+        0.0,
+        2.8
+      ],
+      [
+        0.8125,
+        0.0,
+        2.8
+      ],
+      [
+        0.9375,
+        0.0,
+        2.8
+      ],
+      [
+        1.0625,
+        0.0,
+        2.8
+      ],
+      [
+        1.1875,
+        0.0,
+        2.8
+      ],
+      [
+        1.3125,
+        0.0,
+        2.8
+      ],
+      [
+        1.4375,
+        0.0,
+        2.8
+      ],
+      [
+        0.0625,
+        1.5,
+        2.8
+      ],
+      [
+        0.1875,
+        1.5,
+        2.8
+      ],
+      [
+        0.3125,
+        1.5,
+        2.8
+      ],
+      [
+        0.4375,
+        1.5,
+        2.8
+      ],
+      [
+        0.5625,
+        1.5,
+        2.8
+      ],
+      [
+        0.6875,
+        1.5,
+        2.8
+      ],
+      [
+        0.8125,
+        1.5,
+        2.8
+      ],
+      [
+        0.9375,
+        1.5,
+        2.8
+      ],
+      [
+        1.0625,
+        1.5,
+        2.8
+      ],
+      [
+        1.1875,
+        1.5,
+        2.8
+      ],
+      [
+        1.3125,
+        1.5,
+        2.8
+      ],
+      [
+        1.4375,
+        1.5,
+        2.8
+      ]
+    ],
+    "layers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "wavelength_m": 0.0148,
+    "pair_count": 21600,
+    "same_layer_pair_fraction": 0.2,
+    "maximum_layer_separation_m": 0.5999999999999996,
+    "median_abs_tangent_z": 0.17609018126512468,
+    "maximum_abs_tangent_z": 0.9893227775598874,
+    "median_ray_length_m": 1.4973935542955938,
+    "midpoint_fresnel_fwhm_proxy_m": 0.07443356870991541
+  },
+  "basis": {
+    "center_shape": [
+      13,
+      13,
+      7
+    ],
+    "center_count": 1183,
+    "mode_count": 3549,
+    "curl_mode_count": 3549,
+    "axial_sine_order": 0,
+    "axial_mode_count": 0,
+    "sigma_xy_m": 0.11,
+    "sigma_z_m": 0.13,
+    "mode_norm_min": 5.048665939344205e-05,
+    "mode_norm_max": 0.0033255737498429955
+  },
+  "full_cross_layer_result": {
+    "operator": {
+      "row_count": 21600,
+      "parameter_count": 3549,
+      "effective_rank_1e3": 1694,
+      "numerical_rank_1e12": 3549,
+      "condition_nonzero": 40162967.10306525
+    },
+    "timing_noise": {
+      "delay_sigma_s": 4.47426339981406e-10,
+      "line_integral_sigma_m2_s": 0.0004900213275476359,
+      "repeat_count": 8
+    },
+    "row_weighting": {
+      "minimum": 1.0,
+      "maximum": 1.0,
+      "rms": 1.0,
+      "definition": "1 + (factor-1)*abs(t_z); geometry-only Fisher balancing"
+    },
+    "clean_fit": {
+      "gcv": 2.030329527715219e-11,
+      "selected_spectral_rank": 3549,
+      "selected_relative_ridge": 1e-05,
+      "ridge": 0.0035883752275240282,
+      "effective_degrees_of_freedom": 3112.1025483167577,
+      "delay_residual_relative": 0.11237611893030529,
+      "candidate_summary": [
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 1e-05,
+          "gcv": 2.7819489703179494e-10,
+          "effective_degrees_of_freedom": 127.99999990505736
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 2.781948970096529e-10,
+          "effective_degrees_of_freedom": 127.99999905057363
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.0001,
+          "gcv": 2.781948967882379e-10,
+          "effective_degrees_of_freedom": 127.99999050573716
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 2.781948945742274e-10,
+          "effective_degrees_of_freedom": 127.99990505746331
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.001,
+          "gcv": 2.7819487244824325e-10,
+          "effective_degrees_of_freedom": 127.99905058380352
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 2.7819465260025134e-10,
+          "effective_degrees_of_freedom": 127.99050675497816
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.01,
+          "gcv": 2.781925950219908e-10,
+          "effective_degrees_of_freedom": 127.9051591281318
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 2.7818583129507996e-10,
+          "effective_degrees_of_freedom": 127.06063476297328
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.1,
+          "gcv": 2.792652192099975e-10,
+          "effective_degrees_of_freedom": 119.41027411611496
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 3.245309079345912e-10,
+          "effective_degrees_of_freedom": 79.4037520249082
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 1.0,
+          "gcv": 6.574011713710793e-10,
+          "effective_degrees_of_freedom": 22.905711611414546
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.071772694937119e-09,
+          "effective_degrees_of_freedom": 3.0691595008596484
+        },
+        {
+          "spectral_rank": 128,
+          "relative_ridge": 10.0,
+          "gcv": 1.166021897157457e-09,
+          "effective_degrees_of_freedom": 0.31916711731302133
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 1e-05,
+          "gcv": 1.4184031239232812e-10,
+          "effective_degrees_of_freedom": 255.99999933709083
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 1.4184031231303252e-10,
+          "effective_degrees_of_freedom": 255.99999337090856
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.0001,
+          "gcv": 1.4184031152009392e-10,
+          "effective_degrees_of_freedom": 255.99993370911324
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 1.4184030359251955e-10,
+          "effective_degrees_of_freedom": 255.99933709389035
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.001,
+          "gcv": 1.4184022449758662e-10,
+          "effective_degrees_of_freedom": 255.9933712147026
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 1.41839451612694e-10,
+          "effective_degrees_of_freedom": 255.93373971132013
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.01,
+          "gcv": 1.4183351238801585e-10,
+          "effective_degrees_of_freedom": 255.34013802554745
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 1.4193759783561476e-10,
+          "effective_degrees_of_freedom": 249.6608731743453
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.1,
+          "gcv": 1.5105895319018573e-10,
+          "effective_degrees_of_freedom": 209.5065054466885
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.6260331727769035e-10,
+          "effective_degrees_of_freedom": 105.8808562982834
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 1.0,
+          "gcv": 6.479347282676287e-10,
+          "effective_degrees_of_freedom": 26.26736393751726
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707868252505733e-09,
+          "effective_degrees_of_freedom": 3.4149579772036716
+        },
+        {
+          "spectral_rank": 256,
+          "relative_ridge": 10.0,
+          "gcv": 1.165923067279875e-09,
+          "effective_degrees_of_freedom": 0.3538467598143525
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 1e-05,
+          "gcv": 9.752387783673147e-11,
+          "effective_degrees_of_freedom": 383.99999741763247
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 9.75238776230662e-11,
+          "effective_degrees_of_freedom": 383.9999741763278
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.0001,
+          "gcv": 9.752387548650808e-11,
+          "effective_degrees_of_freedom": 383.9997417635879
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 9.752385413128276e-11,
+          "effective_degrees_of_freedom": 383.9974176668917
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.001,
+          "gcv": 9.752364161393706e-11,
+          "effective_degrees_of_freedom": 383.9741797696758
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 9.752161963411467e-11,
+          "effective_degrees_of_freedom": 383.74210726602973
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.01,
+          "gcv": 9.751142938665485e-11,
+          "effective_degrees_of_freedom": 381.451531994168
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 9.818277971223296e-11,
+          "effective_degrees_of_freedom": 361.1396971732918
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.1,
+          "gcv": 1.2078128553239883e-10,
+          "effective_degrees_of_freedom": 262.4082789133036
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.5630538168476964e-10,
+          "effective_degrees_of_freedom": 114.57176346613474
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 1.0,
+          "gcv": 6.47267193484032e-10,
+          "effective_degrees_of_freedom": 27.198495806544834
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707230641352936e-09,
+          "effective_degrees_of_freedom": 3.5087449351588025
+        },
+        {
+          "spectral_rank": 384,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659167676715568e-09,
+          "effective_degrees_of_freedom": 0.36323225164438705
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 1e-05,
+          "gcv": 7.298046098367134e-11,
+          "effective_degrees_of_freedom": 511.9999918460211
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 7.298046047573576e-11,
+          "effective_degrees_of_freedom": 511.9999184602376
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.0001,
+          "gcv": 7.298045539687508e-11,
+          "effective_degrees_of_freedom": 511.99918460503517
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 7.298040465774769e-11,
+          "effective_degrees_of_freedom": 511.99184631623905
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.001,
+          "gcv": 7.297990221075083e-11,
+          "effective_degrees_of_freedom": 511.91848973903245
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 7.29753685350633e-11,
+          "effective_degrees_of_freedom": 511.18754300506333
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.01,
+          "gcv": 7.29756986092899e-11,
+          "effective_degrees_of_freedom": 504.1285260539107
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 7.54941120819205e-11,
+          "effective_degrees_of_freedom": 450.9383614334189
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.1,
+          "gcv": 1.1169486388538845e-10,
+          "effective_degrees_of_freedom": 287.5582663784679
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.5511397087937603e-10,
+          "effective_degrees_of_freedom": 117.6676811690872
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 1.0,
+          "gcv": 6.471560278339781e-10,
+          "effective_degrees_of_freedom": 27.51551571443674
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707131762470994e-09,
+          "effective_degrees_of_freedom": 3.540523310436811
+        },
+        {
+          "spectral_rank": 512,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659158068223838e-09,
+          "effective_degrees_of_freedom": 0.36641085518381106
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 1e-05,
+          "gcv": 5.3390635943318445e-11,
+          "effective_degrees_of_freedom": 767.9999411393687
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 5.339063322803459e-11,
+          "effective_degrees_of_freedom": 767.9994113948457
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.0001,
+          "gcv": 5.33906060844421e-11,
+          "effective_degrees_of_freedom": 767.9941140643502
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 5.33903355725547e-11,
+          "effective_degrees_of_freedom": 767.9411522296352
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.001,
+          "gcv": 5.338772241149867e-11,
+          "effective_degrees_of_freedom": 767.4126776653211
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 5.337035871039406e-11,
+          "effective_degrees_of_freedom": 762.2391685958873
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.01,
+          "gcv": 5.3773397627868764e-11,
+          "effective_degrees_of_freedom": 719.2317725329613
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 6.349682304128161e-11,
+          "effective_degrees_of_freedom": 546.4813538257533
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.1,
+          "gcv": 1.093581435935796e-10,
+          "effective_degrees_of_freedom": 303.1224971956273
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.548792406323816e-10,
+          "effective_degrees_of_freedom": 119.33781976372651
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 1.0,
+          "gcv": 6.471385925886505e-10,
+          "effective_degrees_of_freedom": 27.683775591487326
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707120957129882e-09,
+          "effective_degrees_of_freedom": 3.557361878887195
+        },
+        {
+          "spectral_rank": 768,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659157136498974e-09,
+          "effective_degrees_of_freedom": 0.3680948379581777
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 1e-05,
+          "gcv": 4.399323479022812e-11,
+          "effective_degrees_of_freedom": 1023.9996772134189
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 4.399322236883061e-11,
+          "effective_degrees_of_freedom": 1023.9967721647685
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.0001,
+          "gcv": 4.3993098265391845e-11,
+          "effective_degrees_of_freedom": 1023.9677247052437
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 4.399186825949282e-11,
+          "effective_degrees_of_freedom": 1023.6775523931187
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.001,
+          "gcv": 4.3980646840750805e-11,
+          "effective_degrees_of_freedom": 1020.805649048829
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 4.395623967603263e-11,
+          "effective_degrees_of_freedom": 994.7140904176704
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.01,
+          "gcv": 4.609055137617817e-11,
+          "effective_degrees_of_freedom": 851.6653866832474
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 6.135147078475565e-11,
+          "effective_degrees_of_freedom": 573.2808173651458
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.1,
+          "gcv": 1.0911562127922207e-10,
+          "effective_degrees_of_freedom": 306.138589348277
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.548590228587069e-10,
+          "effective_degrees_of_freedom": 119.64333372377875
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 1.0,
+          "gcv": 6.471376985260866e-10,
+          "effective_degrees_of_freedom": 27.714366676083955
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707121266883037e-09,
+          "effective_degrees_of_freedom": 3.56042138488558
+        },
+        {
+          "spectral_rank": 1024,
+          "relative_ridge": 10.0,
+          "gcv": 1.16591571944787e-09,
+          "effective_degrees_of_freedom": 0.3684007925340574
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 1e-05,
+          "gcv": 3.6729310512178055e-11,
+          "effective_degrees_of_freedom": 1279.998420128845
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 3.672925912982009e-11,
+          "effective_degrees_of_freedom": 1279.9842019797863
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.0001,
+          "gcv": 3.672874712993243e-11,
+          "effective_degrees_of_freedom": 1279.8420888875885
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 3.6723807762704434e-11,
+          "effective_degrees_of_freedom": 1278.4277542993352
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.001,
+          "gcv": 3.669087793672009e-11,
+          "effective_degrees_of_freedom": 1264.9234435496498
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 3.715446924429011e-11,
+          "effective_degrees_of_freedom": 1169.8105271297845
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.01,
+          "gcv": 4.3363532868733594e-11,
+          "effective_degrees_of_freedom": 900.940167605683
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 6.099386810131732e-11,
+          "effective_degrees_of_freedom": 579.4350044621318
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.1,
+          "gcv": 1.0908226373863255e-10,
+          "effective_degrees_of_freedom": 306.7702455661858
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.5485659653253806e-10,
+          "effective_degrees_of_freedom": 119.70666712761104
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 1.0,
+          "gcv": 6.471376888823403e-10,
+          "effective_degrees_of_freedom": 27.720701699893826
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707121506186862e-09,
+          "effective_degrees_of_freedom": 3.5610549041064603
+        },
+        {
+          "spectral_rank": 1280,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659157223995982e-09,
+          "effective_degrees_of_freedom": 0.36846414462455
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 1e-05,
+          "gcv": 3.071722568102507e-11,
+          "effective_degrees_of_freedom": 1535.9929301542938
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 3.07170312105603e-11,
+          "effective_degrees_of_freedom": 1535.9293145487732
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.0001,
+          "gcv": 3.0715118716071765e-11,
+          "effective_degrees_of_freedom": 1535.2944426266354
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 3.069906417012907e-11,
+          "effective_degrees_of_freedom": 1529.0707956918563
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.001,
+          "gcv": 3.074105924304761e-11,
+          "effective_degrees_of_freedom": 1476.7615561428988
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 3.338880116013001e-11,
+          "effective_degrees_of_freedom": 1257.4541999982152
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.01,
+          "gcv": 4.265129698564798e-11,
+          "effective_degrees_of_freedom": 914.2185380868484
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 6.092006169998213e-11,
+          "effective_degrees_of_freedom": 580.8388610907568
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.1,
+          "gcv": 1.0907564255645958e-10,
+          "effective_degrees_of_freedom": 306.91144607285486
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.5485613818313346e-10,
+          "effective_degrees_of_freedom": 119.72079538571056
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 1.0,
+          "gcv": 6.471376949597708e-10,
+          "effective_degrees_of_freedom": 27.722114607837568
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707121567768624e-09,
+          "effective_degrees_of_freedom": 3.5611961957222324
+        },
+        {
+          "spectral_rank": 1536,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659157231399937e-09,
+          "effective_degrees_of_freedom": 0.3684782737943413
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 1e-05,
+          "gcv": 2.030329527715219e-11,
+          "effective_degrees_of_freedom": 3112.1025483167577
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 3.1622776601683795e-05,
+          "gcv": 2.082891824193728e-11,
+          "effective_degrees_of_freedom": 2812.2518686246167
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.0001,
+          "gcv": 2.231343252987122e-11,
+          "effective_degrees_of_freedom": 2464.293718010582
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.00031622776601683794,
+          "gcv": 2.4309658639108483e-11,
+          "effective_degrees_of_freedom": 2085.976882863128
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.001,
+          "gcv": 2.7533967099500855e-11,
+          "effective_degrees_of_freedom": 1692.3542302024853
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.0031622776601683794,
+          "gcv": 3.274256290594994e-11,
+          "effective_degrees_of_freedom": 1295.8795901231106
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.01,
+          "gcv": 4.2583978525349036e-11,
+          "effective_degrees_of_freedom": 918.4702821922828
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.03162277660168379,
+          "gcv": 6.09142192006623e-11,
+          "effective_degrees_of_freedom": 581.2687861067709
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.1,
+          "gcv": 1.0907527020341634e-10,
+          "effective_degrees_of_freedom": 306.9544868607168
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 0.31622776601683794,
+          "gcv": 2.548561603960314e-10,
+          "effective_degrees_of_freedom": 119.72509994815414
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 1.0,
+          "gcv": 6.471377128609874e-10,
+          "effective_degrees_of_freedom": 27.722545068919302
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 3.1622776601683795,
+          "gcv": 1.0707121602544112e-09,
+          "effective_degrees_of_freedom": 3.5612392418787806
+        },
+        {
+          "spectral_rank": 3549,
+          "relative_ridge": 10.0,
+          "gcv": 1.1659157235256555e-09,
+          "effective_degrees_of_freedom": 0.36848257841047977
+        }
+      ]
+    },
+    "primary_roi_z_m": [
+      2.4,
+      2.6
+    ],
+    "clean_metrics": {
+      "joint_relative_l2": 0.47073380400548737,
+      "component_relative_l2": [
+        0.27311085249905487,
+        0.2841059209036992,
+        0.516347917730954
+      ],
+      "component_correlation": [
+        0.9605752878880993,
+        0.9591987007686456,
+        0.8852122905154886
+      ],
+      "component_amplitude_bias": [
+        -0.048100927250588565,
+        -0.012902879044494386,
+        0.10930435092694601
+      ],
+      "truth_component_rms_m_s": [
+        0.009517767289233372,
+        0.005070885564165597,
+        0.01939619648515403
+      ],
+      "estimate_component_rms_m_s": [
+        0.009059953857265931,
+        0.005005456541082703,
+        0.02151628515241532
+      ]
+    },
+    "clean_metrics_full_slab_diagnostic": {
+      "joint_relative_l2": 0.9054106096733326,
+      "component_relative_l2": [
+        0.9458022251408335,
+        1.070676664433696,
+        0.8769039132826713
+      ],
+      "component_correlation": [
+        0.6361542716308879,
+        0.6041494730378875,
+        0.6898370371310042
+      ],
+      "component_amplitude_bias": [
+        0.1908145767744709,
+        0.31923345798982217,
+        0.18465130752196202
+      ],
+      "truth_component_rms_m_s": [
+        0.009730116052328413,
+        0.006529746023080576,
+        0.020332140474657805
+      ],
+      "estimate_component_rms_m_s": [
+        0.011586764028819906,
+        0.008614259425823908,
+        0.024086496798023504
+      ]
+    },
+    "noisy_metrics": {
+      "joint_relative_l2_mean": 0.4845825787489082,
+      "joint_relative_l2_std": 0.002314637419191146,
+      "component_relative_l2_mean": [
+        0.290485914302815,
+        0.3384713654879413,
+        0.5284484086360136
+      ],
+      "component_relative_l2_std": [
+        0.0031295243226716796,
+        0.006733558983476009,
+        0.0027433197336887787
+      ],
+      "component_correlation_mean": [
+        0.9552243995596447,
+        0.9431021498112517,
+        0.8807674398610854
+      ],
+      "component_correlation_std": [
+        0.0009778348110681704,
+        0.0021524609463862516,
+        0.0017578064357451693
+      ],
+      "component_amplitude_bias_mean": [
+        -0.04303103610798299,
+        0.006384633092936728,
+        0.11522282695389907
+      ]
+    },
+    "noisy_metrics_full_slab_diagnostic": {
+      "joint_relative_l2_mean": 1.3051766472592905,
+      "joint_relative_l2_std": 0.027749564910731373,
+      "component_relative_l2_mean": [
+        1.143947747457177,
+        1.477860362382287,
+        1.3205583426983523
+      ],
+      "component_relative_l2_std": [
+        0.01790037347116207,
+        0.014369194333745457,
+        0.03751944364264255
+      ],
+      "component_correlation_mean": [
+        0.5644364434166798,
+        0.4735568296394279,
+        0.5276453042070939
+      ],
+      "component_correlation_std": [
+        0.018713870928983897,
+        0.023097712601633184,
+        0.01095804797854611
+      ],
+      "component_amplitude_bias_mean": [
+        0.36250928249672154,
+        0.6605127673346647,
+        0.5383509485179957
+      ]
+    },
+    "noisy_selected_relative_ridges": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-05
+    ],
+    "mean_field_sampled_fd_relative_divergence": 0.056832562325754135,
+    "continuum_divergence_exact_by_curl_identity": true
+  },
+  "pair_ablations": {},
+  "observed_layer_metrics_for_mean_noisy_field": [
+    {
+      "requested_z_m": 2.2,
+      "evaluated_z_m": 2.2,
+      "joint_relative_l2": 0.7800850510574007,
+      "component_relative_l2": [
+        0.7164053264204817,
+        0.7341246314552069,
+        0.7943463249070871
+      ],
+      "component_correlation": [
+        0.7676465417927061,
+        0.7697398974751987,
+        0.7127737556044406
+      ],
+      "component_amplitude_bias": [
+        0.0970935070103196,
+        0.1322842406205318,
+        0.08564780167411867
+      ],
+      "truth_component_rms_m_s": [
+        0.008962505059084566,
+        0.008087865376454229,
+        0.023316671129098236
+      ],
+      "estimate_component_rms_m_s": [
+        0.009832706106868814,
+        0.009157762506019568,
+        0.025313692753663887
+      ]
+    },
+    {
+      "requested_z_m": 2.35,
+      "evaluated_z_m": 2.4,
+      "joint_relative_l2": 0.42683808136382556,
+      "component_relative_l2": [
+        0.25206597942053427,
+        0.24183546269874645,
+        0.468778683747573
+      ],
+      "component_correlation": [
+        0.966819205697274,
+        0.9703262272699185,
+        0.8998651123040553
+      ],
+      "component_amplitude_bias": [
+        -0.03483313375731756,
+        -0.03370053703211573,
+        0.07165458673117708
+      ],
+      "truth_component_rms_m_s": [
+        0.009953210641744533,
+        0.006243225048487094,
+        0.02100711681165358
+      ],
+      "estimate_component_rms_m_s": [
+        0.009606509124145896,
+        0.0060328250115407305,
+        0.02251237308520616
+      ]
+    },
+    {
+      "requested_z_m": 2.5,
+      "evaluated_z_m": 2.5,
+      "joint_relative_l2": 0.47236976396272384,
+      "component_relative_l2": [
+        0.2471744918340462,
+        0.24109939656355073,
+        0.5220183264027324
+      ],
+      "component_correlation": [
+        0.9680089855095306,
+        0.971540749252978,
+        0.8838078379690395
+      ],
+      "component_amplitude_bias": [
+        -0.02612140372176608,
+        0.016480899887458156,
+        0.11536954580085368
+      ],
+      "truth_component_rms_m_s": [
+        0.009528122941474143,
+        0.004790867105689901,
+        0.01935662838399415
+      ],
+      "estimate_component_rms_m_s": [
+        0.009279234995409275,
+        0.0048698249068328935,
+        0.021589793808891495
+      ]
+    },
+    {
+      "requested_z_m": 2.65,
+      "evaluated_z_m": 2.6,
+      "joint_relative_l2": 0.5307043601827397,
+      "component_relative_l2": [
+        0.3288783519113052,
+        0.4344222043853433,
+        0.575863586433192
+      ],
+      "component_correlation": [
+        0.9423646307007651,
+        0.907127321845019,
+        0.8673055751256245
+      ],
+      "component_amplitude_bias": [
+        -0.0871471978588908,
+        0.0148331882753725,
+        0.1568558842678025
+      ],
+      "truth_component_rms_m_s": [
+        0.009050533335070344,
+        0.003900176224755878,
+        0.017682174502520902
+      ],
+      "estimate_component_rms_m_s": [
+        0.008261804715790482,
+        0.003958028273004819,
+        0.020455727619891388
+      ]
+    },
+    {
+      "requested_z_m": 2.8,
+      "evaluated_z_m": 2.8,
+      "joint_relative_l2": 1.2497101455856698,
+      "component_relative_l2": [
+        0.8041226932260132,
+        1.2801347990158667,
+        1.375650504481734
+      ],
+      "component_correlation": [
+        0.6457610589733809,
+        0.48331041944036224,
+        0.5449502945102793
+      ],
+      "component_amplitude_bias": [
+        -0.05697560964450177,
+        0.41729866292351137,
+        0.6355470559973497
+      ],
+      "truth_component_rms_m_s": [
+        0.010313532376991855,
+        0.005722899409723682,
+        0.016934878758271144
+      ],
+      "estimate_component_rms_m_s": [
+        0.009725912582224435,
+        0.00811105768144713,
+        0.027697791096762393
+      ]
+    }
+  ],
+  "gates": {
+    "joint_l2_le_30pct": false,
+    "each_component_l2_le_45pct": false,
+    "each_component_correlation_ge_080": true,
+    "continuum_divergence_exact": true
+  },
+  "all_gates_passed": false,
+  "elapsed_seconds": 172.99176605138928
+}

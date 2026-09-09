@@ -1,0 +1,20 @@
+{
+  "coarse": {
+    "ray_bias_ns": -0.29908014581372333,
+    "ray_correlation": 0.9996738809963686,
+    "ray_rmse_ns": 8.122111308126554
+  },
+  "coarse_fine_rms_ns": 3.124745069924551,
+  "fine": {
+    "ray_bias_ns": 0.16268161046730192,
+    "ray_correlation": 0.9997556232493423,
+    "ray_rmse_ns": 6.223668378896173
+  },
+  "richardson": {
+    "ray_bias_ns": 0.8697542997726206,
+    "ray_correlation": 0.9996349079484381,
+    "ray_rmse_ns": 5.905603921256783
+  },
+  "runtime_s": 6.2667042766697705,
+  "zero_flow_reciprocity_relative": 1.2777214806192205e-06
+}

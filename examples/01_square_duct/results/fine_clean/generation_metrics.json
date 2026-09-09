@@ -1,0 +1,13 @@
+{
+  "case": "fine_clean",
+  "data_path": "outputs/demo_3d_50khz/fine_clean/data.h5",
+  "ordered_traces": 552,
+  "noise_rms_fraction": 0.0,
+  "generation_grid": [
+    41,
+    41,
+    81,
+    1000
+  ],
+  "derived_from": null
+}

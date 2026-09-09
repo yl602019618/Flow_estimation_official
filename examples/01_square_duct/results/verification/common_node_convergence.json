@@ -1,0 +1,31 @@
+{
+  "registered_geometry": {
+    "ring_z_m": [0.0375, 0.1, 0.1625],
+    "ring_positions": [[0.375, 0.625], [0.25, 0.75], [0.375, 0.625]],
+    "ring_perimeter_offsets": [0.0, -0.25, 0.0],
+    "wall_offset_m": 0.0125,
+    "common_node_spacing_m": 0.0125
+  },
+  "coverage": {
+    "rank": 3,
+    "normalized_min_eigenvalue": 0.01412466144225978,
+    "condition_max": 34.89907855802072,
+    "passed": true
+  },
+  "valid_receiver_mismatch": {
+    "33_vs_41": 0.656377293441324,
+    "41_vs_49": 0.5994700749132558,
+    "33_vs_49": 0.17816931063698727,
+    "33_vs_57": 0.6744093235809241,
+    "41_vs_57": 0.10116727551874949
+  },
+  "middle_ring_mismatch": {
+    "33_vs_41": 1.4845988091104376,
+    "41_vs_49": 1.0848024462323347,
+    "33_vs_49": 0.17690512234775266,
+    "33_vs_57": 1.4727581410297004,
+    "41_vs_57": 0.11073120937335265
+  },
+  "diagnosis": "non-monotone even/odd grid branch from one-hot excitation of high-wavenumber modes in the collocated centered first-order acoustic discretization",
+  "gate_passed": false
+}

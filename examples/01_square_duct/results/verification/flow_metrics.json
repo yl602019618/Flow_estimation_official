@@ -1,0 +1,74 @@
+{
+  "relative_l2": 0.00023318598657211346,
+  "relative_divergence": 0.0,
+  "wall_velocity_relative": 0.0,
+  "flow_rate_variation": 0.0,
+  "momentum_residual": 1.9608805875291668e-07,
+  "steady_relative_change": 9.283864228045543e-10,
+  "mac_relative_divergence": 0.0,
+  "forcing_rms": 0.7842862583482084,
+  "time_steps": 3955.0,
+  "pcg_iterations": 0.0,
+  "pcg_relative_residual": 0.0,
+  "relative_divergence_float32": 4.4214289118826855e-06,
+  "pcg_relative_residual_float32": 4.409122993820347e-06,
+  "manufactured_order": 1.9420948028564453,
+  "manufactured_convergence": [
+    {
+      "n": 17.0,
+      "spacing": 0.00625,
+      "relative_l2": 0.02288996882104964,
+      "mac_relative_divergence": 4.232268139922194e-18,
+      "pcg_relative_residual": 8.728865102786505e-11
+    },
+    {
+      "n": 25.0,
+      "spacing": 0.004166666666666667,
+      "relative_l2": 0.010449520754833064,
+      "mac_relative_divergence": 4.465679776794699e-18,
+      "pcg_relative_residual": 9.044319928035249e-11
+    },
+    {
+      "n": 33.0,
+      "spacing": 0.003125,
+      "relative_l2": 0.005954480006270184,
+      "mac_relative_divergence": 4.321297087704731e-18,
+      "pcg_relative_residual": 8.66588235847353e-11
+    }
+  ],
+  "production_manufactured_relative_l2": 0.005847053988920269,
+  "production_manufactured_mac_divergence": 5.224736706218612e-18,
+  "production_manufactured_step_change": 1.1584420938750702e-18,
+  "production_manufactured_pcg_residual": 9.542029864383958e-11,
+  "checks": {
+    "duct_l2": true,
+    "manufactured_order": true,
+    "divergence": true,
+    "divergence_float32": true,
+    "wall": true,
+    "flow_rate": true,
+    "momentum": true
+  },
+  "passed": true,
+  "formal_gate_complete": true,
+  "gate_scope": "production-grid MAC RK2 projection plus manufactured convergence",
+  "artifacts": [
+    "outputs/demo_3d_50khz/flow/flow_fields.h5",
+    "outputs/demo_3d_50khz/flow/duct_constraints.png",
+    "outputs/demo_3d_50khz/flow/duct_flow_rate_convergence.png",
+    "outputs/demo_3d_50khz/flow/duct_profile_comparison.png",
+    "outputs/demo_3d_50khz/flow/duct_velocity_components.png",
+    "outputs/demo_3d_50khz/flow/manufactured_components.png",
+    "outputs/demo_3d_50khz/flow/manufactured_grid_convergence.png",
+    "outputs/demo_3d_50khz/flow/manufactured_reference_solver_error.png",
+    "outputs/demo_3d_50khz/flow/manufactured_vectors_streamlines.png",
+    "outputs/demo_3d_50khz/flow/duct_constraints.pdf",
+    "outputs/demo_3d_50khz/flow/duct_flow_rate_convergence.pdf",
+    "outputs/demo_3d_50khz/flow/duct_profile_comparison.pdf",
+    "outputs/demo_3d_50khz/flow/duct_velocity_components.pdf",
+    "outputs/demo_3d_50khz/flow/manufactured_components.pdf",
+    "outputs/demo_3d_50khz/flow/manufactured_grid_convergence.pdf",
+    "outputs/demo_3d_50khz/flow/manufactured_reference_solver_error.pdf",
+    "outputs/demo_3d_50khz/flow/manufactured_vectors_streamlines.pdf"
+  ]
+}

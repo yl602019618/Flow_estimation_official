@@ -1,0 +1,44 @@
+{
+  "layout": "eighth-order staggered mass-adjoint acoustic coupling",
+  "source": "fixed physical common-node point",
+  "bandlimit_hz": 65000.0,
+  "pairs": [
+    {
+      "coarse_n": 33,
+      "fine_n": 41,
+      "mismatch": 0.020500143536429677
+    },
+    {
+      "coarse_n": 41,
+      "fine_n": 49,
+      "mismatch": 0.013596963440926457
+    },
+    {
+      "coarse_n": 49,
+      "fine_n": 57,
+      "mismatch": 0.009702094047914035
+    },
+    {
+      "coarse_n": 33,
+      "fine_n": 49,
+      "mismatch": 0.03408518084070733
+    },
+    {
+      "coarse_n": 41,
+      "fine_n": 57,
+      "mismatch": 0.02329354989854701
+    },
+    {
+      "coarse_n": 33,
+      "fine_n": 57,
+      "mismatch": 0.04377553006992151
+    }
+  ],
+  "runtime_seconds": {
+    "33": 108.26937173586339,
+    "41": 135.70157875819132,
+    "49": 164.12770282942802,
+    "57": 202.21872368594632
+  },
+  "all_adjacent_below_5_percent": true
+}

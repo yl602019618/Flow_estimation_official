@@ -1,0 +1,33 @@
+{
+  "comparison": "sphere versus no-sphere at every common saved time",
+  "common_time_count": 2,
+  "rows": [
+    {
+      "time_s": 0.0,
+      "component_delta_rms_m_s": [
+        0.014260380444121293,
+        0.0008207115440374336,
+        0.015992630329015402
+      ],
+      "delta_magnitude_max_m_s": 0.46894533238082414
+    },
+    {
+      "time_s": 30.96900000000106,
+      "component_delta_rms_m_s": [
+        0.020324820299748282,
+        0.01975962063219212,
+        0.07456407406575447
+      ],
+      "delta_magnitude_max_m_s": 0.7031512187816942
+    }
+  ],
+  "figure": "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_sphere_baseline_comparison/incflo_sphere_vs_no_sphere_common_times.png",
+  "source_sphere_metadata": [
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_sphere_baseline_comparison/slices/sphere_t0_center_y.bin.json",
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_sphere_baseline_comparison/slices/sphere_t30p969_center_y.bin.json"
+  ],
+  "source_baseline_metadata": [
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_sphere_baseline_comparison/slices/baseline_t0_center_y.bin.json",
+    "/home/pisquare/zhijun/Water_USCT/incflo_sphere_wake_comparison/outputs/incflo_sphere_baseline_comparison/slices/baseline_t30p969_center_y.bin.json"
+  ]
+}

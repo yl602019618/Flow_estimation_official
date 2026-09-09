@@ -1,0 +1,28 @@
+{
+  "derivative_order": 7.969383239746094,
+  "phase_error": 0.00010619668647271485,
+  "doppler_plus_error": 0.00010619845640225112,
+  "doppler_minus_error": 0.0001061949201159873,
+  "reciprocity_error": 4.468342306954885e-16,
+  "shear_relative_difference": 6.78888897248172e-07,
+  "energy_drift": 1.520728638348956e-06,
+  "finite": true,
+  "gate_scope": "production grid selected gates",
+  "grid_mismatch": 0.20109225672875286,
+  "taylor_slope": 1.980966814481376,
+  "taylor_gradient_error": 9.915053797721107e-08,
+  "checks": {
+    "derivative_order": true,
+    "phase": true,
+    "doppler": true,
+    "shear": true,
+    "reciprocity": true,
+    "energy": true,
+    "taylor": true,
+    "finite": true,
+    "grid_mismatch": false
+  },
+  "passed": false,
+  "formal_gate_complete": true,
+  "taylor_time_steps": 96
+}

@@ -1,0 +1,37 @@
+{
+  "analytic_sphere_volume_m3": 0.014137166941154066,
+  "approximate_flow_mismatch": 6.947528971876505e-14,
+  "diagnostics": {
+    "central_difference_relative_divergence_lt_1e-5": false
+  },
+  "divergence_proxy_note": "Cell-centred Cartesian central differences do not match incflo's nodal embedded-boundary projection operator.",
+  "finite": true,
+  "fluid_volume_m3": 17.98589603727305,
+  "gates": {
+    "finite": true,
+    "flow_mismatch_lt_0p2pct": true,
+    "max_cfl_lt_0p25": true,
+    "sphere_volume_error_lt_3pct": true
+  },
+  "grid": [
+    144,
+    144,
+    768
+  ],
+  "inlet_flow_m3_s": 1.1250000000000049,
+  "interior_divergence_rms_per_s": 0.017983186459313204,
+  "max_cfl": 0.17994111242934216,
+  "max_speed_m_s": 0.6247955292685491,
+  "native_eb_divergence_gate_status": "not_measured",
+  "outlet_flow_m3_s": 1.125000000000083,
+  "plotfile": "/home/ubuntu/incflo_water_usct/runs/sphere_mature40_double_strict_high144_double_20260823T102322Z/plt_sphere_double_strict_high144_mature_05661",
+  "relative_interior_divergence": 0.0003746497179023584,
+  "solid_volume_m3": 0.014103962726949248,
+  "spacing_m": [
+    0.010416666666666666,
+    0.010416666666666666,
+    0.010416666666666666
+  ],
+  "sphere_volume_relative_error": 0.002348717698746134,
+  "storage_precision_bits": 64
+}

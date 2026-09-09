@@ -1,0 +1,32 @@
+{
+  "clean": {
+    "field_correlation": 0.9999890925267325,
+    "relative_divergence": 0.0,
+    "relative_l2_error": 0.004677157096746178,
+    "residual_ratio": 0.0,
+    "residual_rms_s": 9.105418905477295e-11,
+    "target_residual_rms_s": 0.0,
+    "truncation_rank": 364,
+    "wall_max_speed_m_s": 7.220902759767876e-16
+  },
+  "noise_10ns": {
+    "field_correlation": 0.9919405290471185,
+    "relative_divergence": 0.0,
+    "relative_l2_error": 0.12721555296372314,
+    "residual_ratio": 0.9999696991186973,
+    "residual_rms_s": 9.999696991186972e-09,
+    "target_residual_rms_s": 1e-08,
+    "truncation_rank": 206,
+    "wall_max_speed_m_s": 1.0815586325496523e-15
+  },
+  "noise_5ns": {
+    "field_correlation": 0.9967816256033263,
+    "relative_divergence": 0.0,
+    "relative_l2_error": 0.0802535834636039,
+    "residual_ratio": 1.0000204993870454,
+    "residual_rms_s": 5.000102496935227e-09,
+    "target_residual_rms_s": 5e-09,
+    "truncation_rank": 277,
+    "wall_max_speed_m_s": 9.609966154659713e-16
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stage": "profile_fwi",
+  "formal": false,
+  "initialization": "travel_time",
+  "truth_policy": "truth excluded from initialization and optimization; post-hoc scoring only",
+  "optimizer": "exact_full-shot gradient with bounded Armijo backtracking",
+  "iterations_per_band": 1,
+  "accepted_iterations": 4,
+  "gradient_evaluations": 4,
+  "max_armijo_backtracks": 3,
+  "shots_per_gpu": 12,
+  "initial_profile_relative_l2": 0.234985813498497,
+  "final_profile_relative_l2": 0.11135320365428925,
+  "profile_correlation": 0.996906042098999,
+  "initial_65khz_flow_waveform_loss": 0.036982931196689606,
+  "final_65khz_flow_waveform_loss": 0.011706974357366562,
+  "waveform_loss_reduction": 0.6834492683410645,
+  "model_not_worse": true,
+  "constraints": {
+    "wall_max_m_per_s": 0.0,
+    "transverse_max_m_per_s": 0.0,
+    "z_variation_max_m_per_s": 0.0,
+    "relative_divergence": 0.0
+  },
+  "passed": false,
+  "artifacts": [
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/model.h5",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/history.csv",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_models.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_models.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_history.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_history.pdf",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_initial_model.png",
+    "outputs/demo_3d_50khz/inversion/profile_fwi_ablation/travel_time/axial_fwi_initial_model.pdf"
+  ]
+}
